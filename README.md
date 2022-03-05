@@ -40,7 +40,7 @@
 
 ## 🛠️ Ambiente 
 
-- Arquitetura
+<h2 align="center">Arquitetura</h2>
 
 <p align="center">
   <img alt="Ambiente" src="data/ambiente.png">
