@@ -57,7 +57,9 @@
 
 5. [Configuração das vms](roles/README.md) 
 
-- Provisionamento e configuração da Infra
+
+<h2 align="center">Provisionamento e configuração da Infra</h2>
+
 
 <p align="center">
   <img alt="Ambiente" src="data/provisionamento.png">
