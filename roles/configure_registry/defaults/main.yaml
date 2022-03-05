@@ -1,0 +1,8 @@
+---
+htpasswd_credentials:
+  - name: jenkins
+    password: NC9vHe7DFW
+  - name: registry
+    password: 2Cbn2SAJaAs3
+  - name: leoviana
+    password: changeit

@@ -1,0 +1,8 @@
+GitLab Plugin
+HTTP Request
+Config File Provider
+Logstash
+JaCoCo
+Docker
+SonarQube Scanner
+Pipeline Utility Steps

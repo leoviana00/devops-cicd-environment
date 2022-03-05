@@ -1,0 +1,9 @@
+---
+
+# Docker install variables
+install_docker: true
+docker_insecure_registries:
+  - 192.168.10.30:5000
+  - 192.168.10.30:5001
+
+docker_cgroup_driver: systemd

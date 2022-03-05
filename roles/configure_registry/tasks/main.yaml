@@ -1,0 +1,14 @@
+---
+- name: Instalar pacotes requeridos pelo htpasswd
+  package:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  with_items:
+    - python3-passlib
+    - openssl
+    - apache2-utils
+    - python3-bcrypt
+
+- include_tasks: certificates.yaml
+- include_tasks: registry.yaml

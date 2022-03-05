@@ -1,0 +1,19 @@
+Vagrant.configure("2") do |config|
+    config.vm.hostname = "jenkins"
+    config.vm.box = "bento/ubuntu-20.04"
+    config.vm.network "private_network", ip: "192.168.10.20"
+
+    config.vm.provision "shell", inline: <<-SHELL
+    echo "Ambiente para testes Jenkins" > /tmp/vagrant.txt
+  SHELL
+
+  #Virtualbox Settings
+  config.vm.provider "virtualbox" do |vb|
+      vb.gui = false
+      vb.name = "jenkins"
+      vb.memory = "2048"
+      vb.cpus = "2"
+
+  end
+    config.vm.provision:shell, path: "bootstrap.sh"
+end

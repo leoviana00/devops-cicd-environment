@@ -1,0 +1,67 @@
+---
+- name: Criar grupos
+  group:
+    name: "{{ item }}"
+  with_items:
+    - wheel
+    - vagrant
+    - docker
+    - leonardoviana
+
+- name: Criar usuario vagrant
+  user:
+    name: vagrant
+    comment: Usuario padrão
+    shell: /bin/bash
+    groups:
+      - wheel
+      - docker
+      - vagrant
+    create_home: yes
+
+- name: Criar usuario leonardoviana
+  user:
+    name: leonardoviana
+    comment: Usuario padrão
+    shell: /bin/bash
+    groups:
+      - wheel
+      - docker
+      - leonardoviana
+    create_home: yes
+
+- name: Adicionar chaves públicas para root
+  authorized_key:
+    user: root
+    state: present
+    key: "{{ item }}"
+  with_file:
+    - keys/vagrant.pub
+
+- name: Adicionar chaves públicas para vagrant
+  authorized_key:
+    user: vagrant
+    state: present
+    key: "{{ item }}"
+  with_file:
+    - keys/vagrant.pub
+
+- name: Adicionar chaves públicas para leonardoviana
+  authorized_key:
+    user: leonardoviana
+    state: present
+    key: "{{ item }}"
+  with_file:
+    - keys/vagrant.pub
+
+- name: Modificar /etc/sudoers
+  lineinfile:
+    path: /etc/sudoers
+    line: 'vagrant ALL=(ALL:ALL) NOPASSWD: ALL'
+    insertbefore: BOF
+  
+- name: Modificar /etc/sudoers
+  lineinfile:
+    path: /etc/sudoers
+    line: 'vagrant ALL=(ALL:ALL) NOPASSWD: ALL'
+    insertbefore: BOF

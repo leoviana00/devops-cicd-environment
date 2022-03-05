@@ -1,0 +1,11 @@
+# Ansible
+site.retry
+*.retry
+**/.retry
+**/pulse-infra.*
+site.retry
+# Editor
+.vscode
+# vagrant
+*.vagrant
+**/.vagrant

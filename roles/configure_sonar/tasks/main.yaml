@@ -1,0 +1,26 @@
+---
+- name: Criar diretório dos arquivos
+  file:
+    dest: /home/vagrant/sonar
+    state: directory
+    owner: vagrant
+    group: vagrant
+    mode: 0755
+
+# - name: Copiar arquivo de configuracao
+#   copy:
+#     src: "./files/sonar-prometheus.jar"
+#     dest: /home/vagrant/sonar/sonar-prometheus.jar
+
+- name: Rodar container sonar
+  docker_container:
+    image: sonarqube:8-community
+    name: sonarqube
+    hostname: sonarqube
+    restart_policy: always
+    state: started
+    ports:
+      - 80:9000
+    volumes:
+      # - /home/vagrant/sonar/sonar-prometheus.jar:/opt/sonarqube/extensions/plugins/sonar-prometheus.jar
+      - /home/vagrant/sonar-data:/opt/sonarqube/data

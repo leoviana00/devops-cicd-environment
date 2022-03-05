@@ -1,0 +1,55 @@
+---
+- name: Criar diretório dos arquivos
+  file:
+    dest: /home/vagrant/jenkins
+    state: directory
+    owner: vagrant
+    group: vagrant
+    mode: 0755
+
+- name: Criar diretório ssh
+  file:
+    dest: /home/vagrant/.ssh
+    state: directory
+    owner: vagrant
+    group: vagrant
+    mode: 0755
+
+- name: Atualizar permissões das pastas
+  command: chown 1000 /home/vagrant/jenkins
+
+- name: Atualizar permissões do socket do docker
+  command: chmod 666 /var/run/docker.sock
+
+# - name: Carregar secrets
+#   include_vars:
+#     file: "files/secrets-{{ambiente}}.yml"
+
+- name: Copiar template de configuração jcasc
+  template:
+    src: casc.yaml.j2
+    dest: /home/vagrant/jenkins/casc.yaml
+
+- name: Rodar container jenkins
+  docker_container:
+    image: leoviana00/jenkins_project:0.1.0
+    name: jenkins
+    hostname: jenkins
+    restart_policy: always
+    groups:
+      - docker
+      - jenkins
+    state: started
+    restart: yes
+    recreate: yes
+    pull: yes
+    volumes:
+      - /home/vagrant/jenkins:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    env:
+      CASC_JENKINS_CONFIG: /var/jenkins_home/casc.yaml
+      HOME: /var/jenkins_home
+    ports:
+      - 8080:8080
+      - 50000:50000
+  

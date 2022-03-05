@@ -1,0 +1,19 @@
+---
+- name: Instalar pacotes de dependências
+  package:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  with_items:
+    - apt-transport-https
+    - ca-certificates
+    - software-properties-common
+    - curl
+    - gnupg-agent
+    - gnupg2
+    - molly-guard
+    - pass
+
+- include_tasks: docker.yaml
+
+- include_tasks: users.yaml

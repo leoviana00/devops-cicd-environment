@@ -1,0 +1,3 @@
+{
+  "insecure-registries" : [{% for registry in docker_insecure_registries %}"{{ registry }}"{% if not loop.last %},{% endif %}{% endfor %}]
+}

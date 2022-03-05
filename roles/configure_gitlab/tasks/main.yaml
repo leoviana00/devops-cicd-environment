@@ -1,0 +1,37 @@
+---
+- name: Criar diretório dos arquivos
+  file:
+    dest: /home/vagrant/gitlab
+    state: directory
+    owner: vagrant
+    group: vagrant
+    mode: 0755
+
+- name: Copiar arquivos 
+  copy:
+     src: files/
+     dest: /home/vagrant/gitlab/
+     owner: vagrant
+     group: vagrant
+
+
+- name: Rodar container gitlab
+  docker_container:
+    image: gitlab/gitlab-ce:latest
+    name: gitlab
+    hostname: gitlab
+    restart_policy: always
+    state: started
+    env:
+      GITLAB_OMNIBUS_CONFIG: |
+          external_url 'http://gitlab.project'
+          gitlab_rails['gitlab_shell_ssh_port'] = 2022
+    ports:
+      - "2022:22"    
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /home/vagrant/gitlab/gitlab_config:/etc/gitlab
+      - /home/vagrant/gitlab/gitlab_data:/var/opt/gitlab
+      - /home/vagrant/gitlab/gitlab_logs:/var/log/gitlab
+      

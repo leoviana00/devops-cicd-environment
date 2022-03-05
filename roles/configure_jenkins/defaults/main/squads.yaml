@@ -1,0 +1,13 @@
+---
+squads:
+  - nome: devops
+    usuarios:
+      - leonardoviana
+
+  - nome: squad01
+    usuarios:
+      - usauario1
+
+  - nome: squad02
+    usuarios:
+      - usauario2
