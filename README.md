@@ -1,4 +1,4 @@
-<h1 align="center">DevOps</h1>
+<h1 align="center">DevOps</h1><h1 align="center">DevOps</h1>
 
 <p align="center">
   <img alt="DevOps" src="https://img.shields.io/static/v1?label=DevOps&message=CICD&color=8257E5&labelColor=000000"  />
@@ -24,7 +24,7 @@
 
 - Construção de uma ambiente CICD:
 
-## Backlog: 
+<h1 align="center">Backlog</h1>
 
 - Criação das vms utilizando `vagrant` e `virtualbox` para:
     - GitLab
