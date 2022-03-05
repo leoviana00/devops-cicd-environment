@@ -97,3 +97,6 @@ $ make registry
 ```console
 $ make setup
 ```
+<p align="center">
+  <img alt="Playbook" src="../data/make-setup.png">
+</p>

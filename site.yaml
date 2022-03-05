@@ -8,14 +8,14 @@
     - configure_hosts
 
 - name: Deploy Jenkins 
-  hosts: jenkins
+  hosts: jenkins-virtualbox
   remote_user: root
   tags: jenkins
   roles:
     - role: configure_jenkins
 
 - name: Deploy Sonar
-  hosts: sonar
+  hosts: sonar-virtualbox
   remote_user: vagrant
   become: true
   tags: sonar
@@ -23,7 +23,7 @@
     - role: configure_sonar
 
 - name: Deploy Gitlab
-  hosts: gitlab
+  hosts: gitlab-virtualbox
   remote_user: vagrant
   become: true
   tags: gitlab
@@ -31,7 +31,7 @@
     - role: configure_gitlab
 
 - name: Deploy Registry
-  hosts: registry
+  hosts: registry-virtualbox
   remote_user: vagrant
   become: true
   tags: registry
