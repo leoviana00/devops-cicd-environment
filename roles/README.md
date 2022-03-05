@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="Ansible" src="../data/ansible.png">
+</p>
+
 ## Roles 
 - Configure Hosts (Para configurar o docker nas VMs)
 - Registry (Para subir um registry privado e poder guardar nossas imagens)
