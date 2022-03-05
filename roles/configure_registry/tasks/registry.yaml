@@ -52,7 +52,7 @@
       status_code: 200
       return_content: yes
       user: registry
-      password: 2C2SAyafs3
+      password: 2Cbn2SAJaAs3
   register: test_docker_registry
   until: test_docker_registry.content == '{}'
   retries: 5

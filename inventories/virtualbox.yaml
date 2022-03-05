@@ -5,29 +5,28 @@ all:
     ansible_ssh_private_key_file: ~/.ssh/vagrant
 
   hosts:
-    jenkins:
+    jenkins-virtualbox:
       ansible_host: 192.168.10.20
-    sonar:
+    sonar-virtualbox:
       ansible_host: 192.168.10.40
-    gitlab:
+    gitlab-virtualbox:
       ansible_host: 192.168.10.10
-    registry:
+    registry-virtualbox:
       ansible_host: 192.168.10.30
   children:
     cicd:
       hosts:
-        jenkins:
-        sonar:
+        jenkins-virtualbox:
         
     git:
       hosts:
-        gitlab:
+        gitlab-virtualbox:
     
     registry:
       hosts:
-        registry:
+        registry-virtualbox:
 
     sonar:
       hosts:
-        sonar:
+        sonar-virtualbox:
     
