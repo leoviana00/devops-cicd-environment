@@ -87,17 +87,17 @@
 
 ## 🚀 Execução
 
-- Instalando ferramentas necessárias
+- [Instalando ferramentas necessárias](packages/README.md) 
 ```console
 make init
 ```
 
-- Inicializando as vms com vagrant
+- [Inicializando as vms com vagrant](vagrant/README.MD) 
 ```console
 make vagrant_up
 ```
 
-- Configuração das vms
+- [Configuração das vms](roles/README.md) 
 ```console
 make setup
 ```

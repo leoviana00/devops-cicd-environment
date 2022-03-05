@@ -26,4 +26,8 @@ all:
     registry:
       hosts:
         registry:
+
+    sonar:
+      hosts:
+        sonar:
     
