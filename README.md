@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img alt="SwagDevOpsger" src="data/devops-process.png">
+  <img alt="DevOps" src="data/devops-process.png">
 </p>
 
 
@@ -73,6 +73,11 @@
 
 ## 🛠️ Ambiente (Arquitetura)
 
+- Arquitetura
+
+<p align="center">
+  <img alt="AMbiente" src="data/ambiente.png">
+</p>
 
 ## 🚀 Execução
 

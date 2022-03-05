@@ -8,7 +8,7 @@ all:
     jenkins:
       ansible_host: 192.168.10.20
     sonar:
-      ansible_host: 192.168.10.20
+      ansible_host: 192.168.10.40
     gitlab:
       ansible_host: 192.168.10.10
     registry:
