@@ -1,26 +1,26 @@
-<h2 align="center">Backlog</h2>
+<h2 align="center">Etapas do projeto</h2>
 
-- Instalação das dependências necessárias
-- Criar chaves `SSH` para o projeto
-- Criação das vms utilizando `vagrant` e `virtualbox` para:
+1. Instalação das dependências necessárias
+2. Criar chaves `SSH` para o projeto
+3. Criação das vms utilizando `vagrant` e `virtualbox` para:
     - GitLab
     - Registry
     - Jenkins
     - Sonar
-- Construção de Playbook com `ansible` para configuração:
+4. Construção de Playbook com `ansible` para configuração:
     - Docker
     - GitLab
     - Registry
     - Jenkins
     - Sonar
-- `Integração` entre as ferramentas:
+5. `Integração` entre as ferramentas:
     - GitLab
     - Jenkins
     - Sonar
-- Criação de uma `API`:
+6. Criação de uma `API`:
     - Java
     - Spring
-- Criação de `Pipeline`:
+7. Criação de `Pipeline`:
     - CICD:
       - Stages:
         - Clonar repositório
