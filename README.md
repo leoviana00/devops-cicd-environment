@@ -73,7 +73,20 @@
 
 ## 🛠️ Ambiente (Arquitetura)
 
-...
+- Instalando ferramentas necessárias
+```console
+make init
+```
+
+- Inicializando as vms com vagrant
+```console
+make vagrant_up
+```
+
+- Configuração das vms
+```console
+make setup
+```
 
 ## 🚀 Execução
 
