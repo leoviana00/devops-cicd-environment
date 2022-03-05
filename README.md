@@ -40,7 +40,7 @@
 
 ## 🛠️ Ambiente 
 
-<h2 align="center">Arquitetura</h2>
+<h3 align="center">Arquitetura</h3>
 
 <p align="center">
   <img alt="Ambiente" src="data/ambiente.png">
@@ -58,7 +58,7 @@
 5. [Configuração das vms](roles/README.md) 
 
 
-<h2 align="center">Provisionamento e configuração da Infra</h2>
+<h3 align="center">Provisionamento e configuração da Infra</h3>
 
 
 <p align="center">
