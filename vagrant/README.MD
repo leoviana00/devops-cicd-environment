@@ -5,7 +5,7 @@
 
 ## Vagrant e virtualbox
 
-- Criação do ambiente com vagrant e virtualbox. Cada serviço terá sua própria vm, onde cada diretório possui uma vagrantfile onde é passado algumas informações de cada vm, como hostname, ip, tamanho de cpu, memória e também chamará um script chamado bootstrap.sh, esse script possui algumas funções para configurações.
+- Criação do ambiente com `vagrant` e `virtualbox`. Cada serviço terá sua própria vm, onde cada diretório possui uma `vagrantfile` onde é passado algumas informações de cada vm, como hostname, ip, tamanho de cpu, memória, copia a chave `ssh` vagrant criada na etapa anterior e também chamará um script chamado `bootstrap.sh`, esse script possui algumas funções para configurações.
 
 - bootstrap.sh
     - ensure_netplan_apply
