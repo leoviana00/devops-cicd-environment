@@ -24,38 +24,7 @@
 
 - Construção de uma ambiente CICD:
 
-<h2 align="center">Backlog</h2>
-
-- Criação das vms utilizando `vagrant` e `virtualbox` para:
-    - GitLab
-    - Registry
-    - Jenkins
-    - Sonar
-- Construção de Playbook com `ansible` para configuração:
-    - Docker
-    - GitLab
-    - Registry
-    - Jenkins
-    - Sonar
-- `Integração` entre as ferramentas:
-    - GitLab
-    - Jenkins
-    - Sonar
-- Criação de uma `API`:
-    - Java
-    - Spring
-- Criação de `Pipeline`:
-    - CICD:
-      - Stages:
-        - Clonar repositório
-        - Maven Build
-        - Maven Test
-        - Análise SOnar
-        - Sonar Quality Gate
-        - Build Docker
-          - Gerar imagem do app
-          - Eviar para o registry privado
-        - Deploy
+- [Etapas do projeto](stages.md) 
 
 ## ✨ Tecnologias
 

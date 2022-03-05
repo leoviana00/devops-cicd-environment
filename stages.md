@@ -1,0 +1,34 @@
+<h2 align="center">Backlog</h2>
+
+- Instalação das dependências necessárias
+- Criar chaves `SSH` para o projeto
+- Criação das vms utilizando `vagrant` e `virtualbox` para:
+    - GitLab
+    - Registry
+    - Jenkins
+    - Sonar
+- Construção de Playbook com `ansible` para configuração:
+    - Docker
+    - GitLab
+    - Registry
+    - Jenkins
+    - Sonar
+- `Integração` entre as ferramentas:
+    - GitLab
+    - Jenkins
+    - Sonar
+- Criação de uma `API`:
+    - Java
+    - Spring
+- Criação de `Pipeline`:
+    - CICD:
+      - Stages:
+        - Clonar repositório
+        - Maven Build
+        - Maven Test
+        - Análise SOnar
+        - Sonar Quality Gate
+        - Build Docker
+          - Gerar imagem do app
+          - Eviar para o registry privado
+        - Deploy
