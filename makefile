@@ -20,7 +20,7 @@ gitlab:
 
 # Inicializando configuração do docker, jenkins, sonar e gitlab
 setup:
-	ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags setup.jenkins,sonar,gitlab
+	ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags setup,jenkins,sonar,gitlab
 
 # Inicializando as vms com vagrant
 vagrant_up:
