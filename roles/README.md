@@ -13,7 +13,7 @@
 - O arquivo inventories é onde estão registrados algumas variáveis de ambientes, hosts e grupos.
 
 ## Tags - site.yaml
-- `site.yaml` é o arquivo princiapal, onde chamará as rules através das `tags` criadas.
+- `site.yaml` é o arquivo princiapal, onde chamará as roles através das `tags` criadas.
 
 - setup
 - jenkins
