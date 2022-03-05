@@ -24,7 +24,7 @@
 
 - Construção de uma ambiente CICD:
 
-<h1 align="center">Backlog</h1>
+<h2 align="center">Backlog</h2>
 
 - Criação das vms utilizando `vagrant` e `virtualbox` para:
     - GitLab
