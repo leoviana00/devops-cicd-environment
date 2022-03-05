@@ -3,4 +3,9 @@
 </p>
 
 
-# Criação de chave SSH para o projeto
+# Criação de chave SSH dentro desse diretório para o projeto
+
+- Criei uma chave com o nome vagrant.
+```console
+$ ssh-keygen
+```

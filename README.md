@@ -87,20 +87,14 @@
 
 ## 🚀 Execução
 
-- [Instalando ferramentas necessárias](packages/README.md) 
-```console
-make init
-```
+1. [Instalando ferramentas necessárias](packages/README.md) 
 
-- [Inicializando as vms com vagrant](vagrant/README.MD) 
-```console
-make vagrant_up
-```
+2. [Criar chaves ssh para o projeto](keys/README.md)
 
-- [Configuração das vms](roles/README.md) 
-```console
-make setup
-```
+3. [Inicializando as vms com vagrant](vagrant/README.MD) 
+
+4. [Configuração das vms](roles/README.md) 
+
 
 ## 📄 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
