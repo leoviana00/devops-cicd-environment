@@ -73,6 +73,9 @@
 
 ## 🛠️ Ambiente (Arquitetura)
 
+
+## 🚀 Execução
+
 - Instalando ferramentas necessárias
 ```console
 make init
@@ -87,10 +90,6 @@ make vagrant_up
 ```console
 make setup
 ```
-
-## 🚀 Execução
-
-...
 
 ## 📄 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
