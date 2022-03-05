@@ -71,12 +71,18 @@
 - Docker 
 
 
-## 🛠️ Ambiente (Arquitetura)
+## 🛠️ Ambiente 
+
+- Provisionamento e configuração da Infra
+
+<p align="center">
+  <img alt="Ambiente" src="data/provisionamento.png">
+</p>
 
 - Arquitetura
 
 <p align="center">
-  <img alt="AMbiente" src="data/ambiente.png">
+  <img alt="Ambiente" src="data/ambiente.png">
 </p>
 
 ## 🚀 Execução
