@@ -22,9 +22,7 @@
 
 ## 🌱 Projeto
 
-- Construção de uma ambiente CICD:
-
-- [Etapas do projeto](stages.md) 
+- Construção de uma ambiente CICD
 
 ## ✨ Tecnologias
 
@@ -42,12 +40,6 @@
 
 ## 🛠️ Ambiente 
 
-- Provisionamento e configuração da Infra
-
-<p align="center">
-  <img alt="Ambiente" src="data/provisionamento.png">
-</p>
-
 - Arquitetura
 
 <p align="center">
@@ -55,15 +47,21 @@
 </p>
 
 ## 🚀 Execução
+1. [Etapas do projeto](stages.md) 
 
-1. [Instalando ferramentas necessárias](packages/README.md) 
+2. [Instalando ferramentas necessárias](packages/README.md) 
 
-2. [Criar chaves ssh para o projeto](keys/README.md)
+3. [Criar chaves ssh para o projeto](keys/README.md)
 
-3. [Inicializando as vms com vagrant](vagrant/README.MD) 
+4. [Inicializando as vms com vagrant](vagrant/README.MD) 
 
-4. [Configuração das vms](roles/README.md) 
+5. [Configuração das vms](roles/README.md) 
 
+- Provisionamento e configuração da Infra
+
+<p align="center">
+  <img alt="Ambiente" src="data/provisionamento.png">
+</p>
 
 ## 📄 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
