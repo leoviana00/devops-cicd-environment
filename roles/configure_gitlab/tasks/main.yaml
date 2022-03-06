@@ -34,4 +34,3 @@
       - /home/vagrant/gitlab/gitlab_config:/etc/gitlab
       - /home/vagrant/gitlab/gitlab_data:/var/opt/gitlab
       - /home/vagrant/gitlab/gitlab_logs:/var/log/gitlab
-      
