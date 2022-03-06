@@ -1,9 +1,10 @@
-## Jenkins
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-logo.jpg">
+</p>
 
 ## Inial Password
 
-
-- Forma 1: Acessar a VM do Jenkina
+- Forma 1: Acessar a VM do Jenkins
 
 ```console
 ssh -i keys/vagrant vagrant@192.168.10.20
