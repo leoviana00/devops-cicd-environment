@@ -15,11 +15,11 @@
 ## Tags - site.yaml
 - `site.yaml` é o arquivo princiapal, onde chamará as roles através das `tags` criadas.
 
-- setup
-- jenkins
-- sonar
-- gitlab
-- registry
+  - setup
+  - jenkins
+  - sonar
+  - gitlab
+  - registry
 
 ## Inicialização 
 
