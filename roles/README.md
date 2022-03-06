@@ -102,6 +102,22 @@ $ make setup
 </p>
 
 ## Acessando as VMs passando o path da chave privada que foi criada para o projeto.
+- GitLab
 ```console
 $ ssh -i keys/vagrant vagrant@192.168.10.10
+```
+
+- Jenkins
+```console
+$ ssh -i keys/vagrant vagrant@192.168.10.20
+```
+
+- Sonar
+```console
+$ ssh -i keys/vagrant vagrant@192.168.10.40
+```
+
+- Registry
+```console
+$ ssh -i keys/vagrant vagrant@192.168.10.30
 ```
