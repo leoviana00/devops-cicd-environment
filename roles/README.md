@@ -28,37 +28,37 @@
 - Docker:
 
 ```console
-$ ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags setup
+ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags setup
 ```
 
 - Registry:
 
 ```console
-$ ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags registry
+ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags registry
 ```
 
 - GitLab:
 
 ```console
-$ ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags gitlab
+ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags gitlab
 ```
 
 - Jenkins
 
 ```console
-$ ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags jenkins
+ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags jenkins
 ```
 
 - Sonar:
 
 ```console
-$ ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags sonar
+ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags sonar
 ```
 
 - Todos de uma vez:
 
 ```console
-$ ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags setup,gitlab,registry,sonar,jenkins
+ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags setup,gitlab,registry,sonar,jenkins
 ```
 
 <p align="center">
@@ -70,32 +70,32 @@ $ ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags setup,gitlab,
 
 - Configurar o Docker:
 ```console
-$ make docker
+make docker
 ```
 
 - Configurar Jenkins:
 ```console
-$ make jenkins
+make jenkins
 ```
 
 - Configurar o GitLab:
 ```console
-$ make gitlab
+make gitlab
 ```
 
 - Configurar o Sonar:
 ```console
-$ make sonar
+make sonar
 ```
 
 - Configurar Registry:
 ```console
-$ make registry
+make registry
 ```
 
 - Configurar todos de uma vez:
 ```console
-$ make setup
+make setup
 ```
 <p align="center">
   <img alt="Playbook" src="../data/make-setup.png">
@@ -104,20 +104,20 @@ $ make setup
 ## Acessando as VMs passando o path da chave privada que foi criada para o projeto.
 - GitLab
 ```console
-$ ssh -i keys/vagrant vagrant@192.168.10.10
+ssh -i keys/vagrant vagrant@192.168.10.10
 ```
 
 - Jenkins
 ```console
-$ ssh -i keys/vagrant vagrant@192.168.10.20
+ssh -i keys/vagrant vagrant@192.168.10.20
 ```
 
 - Sonar
 ```console
-$ ssh -i keys/vagrant vagrant@192.168.10.40
+ssh -i keys/vagrant vagrant@192.168.10.40
 ```
 
 - Registry
 ```console
-$ ssh -i keys/vagrant vagrant@192.168.10.30
+ssh -i keys/vagrant vagrant@192.168.10.30
 ```

@@ -7,5 +7,5 @@
 
 - Criei uma chave com o nome vagrant.
 ```console
-$ ssh-keygen
+ssh-keygen
 ```

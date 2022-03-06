@@ -24,8 +24,8 @@
 - Entrar direto no diretório de cada um e usar o comando: `vagrant up`.
 
 ```console
-$ cd vagrant/jenkins
-$ vagrant up
+cd vagrant/jenkins
+vagrant up
 ```
 
 2. Forma 2:
@@ -33,5 +33,5 @@ $ vagrant up
 - Utilizar o comando `make vagrant_up` que ele levantara toda a infraestrutura de uma vez
 
 ```console
-$ make vagrant_up
+make vagrant_up
 ```
