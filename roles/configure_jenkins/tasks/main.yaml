@@ -53,12 +53,12 @@
       - 8080:8080
       - 50000:50000
 
-- name: Pegar init password Jenkins
-  shell: docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
-  changed_when: false
-  register: result
+# - name: Pegar init password Jenkins
+#   shell: docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+#   changed_when: false
+#   register: result
 
-- name: Imprimir init password Jenkins
-  debug:
-    var: result.stdout
+# - name: Imprimir init password Jenkins
+#   debug:
+#     var: result.stdout
   
