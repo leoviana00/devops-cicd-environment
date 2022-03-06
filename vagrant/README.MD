@@ -35,3 +35,18 @@ vagrant up
 ```console
 make vagrant_up
 ```
+
+## Destruindo as VMs
+
+- Caso queira destruir as VMs criadas pode entrar em diretorio por diretorio e usar o comando:
+```console
+vagrant destroy
+```
+
+- Ou pode utilizar um único comando para destruir todas de uma vez:
+```console
+make vagrant_destroy
+```
+<p align="center">
+  <img alt="DevOps" src="../data/make-destroy.png">
+</p>
