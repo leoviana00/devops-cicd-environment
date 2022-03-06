@@ -36,6 +36,10 @@ vagrant up
 make vagrant_up
 ```
 
+<p align="center">
+  <img alt="DevOps" src="../data/make-up.png">
+</p>
+
 ## Destruindo as VMs
 
 - Caso queira destruir as VMs criadas pode entrar em diretorio por diretorio e usar o comando:
