@@ -76,3 +76,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 4. [Sonar](https://docs.sonarqube.org/latest/)
 5. [Integração GitLab e Jenkins](https://docs.gitlab.com/ee/integration/jenkins.html)
 6. [Integração Sonarqube e Jenkins](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/#:~:text=Log%20into%20Jenkins%20as%20an,a%20'Secret%20Text'%20credential.)
+7. [GitLab Docker Images](https://docs.gitlab.com/ee/install/docker.html)
