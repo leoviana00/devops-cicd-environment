@@ -53,9 +53,9 @@
 
 3. [Criar chaves ssh para o projeto](keys/README.md)
 
-4. [Inicializando as vms com vagrant](vagrant/README.MD) 
+4. [Criando as vms com vagrant e virtualbox](vagrant/README.MD) 
 
-5. [Configuração das vms](roles/README.md) 
+5. [Criação de playbook ansible para subir os serviços](roles/README.md) 
 
 
 <h3 align="center">Provisionamento e configuração da Infra</h3>
