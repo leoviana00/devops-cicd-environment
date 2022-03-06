@@ -22,6 +22,12 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 - URL: http://192.168.10.20:8080/
 
+- Unlock Jenkins
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/unlock-jenkins.png">
+</p>
+
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins.png">
 </p>
