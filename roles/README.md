@@ -100,3 +100,8 @@ $ make setup
 <p align="center">
   <img alt="Playbook" src="../data/make-setup.png">
 </p>
+
+## Acessando as VMs passando o path da chave privada que foi criada para o projeto.
+```console
+$ ssh -i keys/vagrant vagrant@192.168.10.10
+```
