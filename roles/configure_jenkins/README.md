@@ -107,6 +107,78 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 - Criar Chave privada e pública do Jenkins
 
+- Passo 1: Acessar a vm do jenkins
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-18.png">
+</p>
+
+- Passo 2: Acessar o container jenkins
+
+```console
+docker exec -it jenkins
+```
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-19.png">
+</p>
+
+- Passo 3: Mudando para usuário `jenkins`
+
+```console
+su jenkins
+```
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-20.png">
+</p>
+
+- Passo 4: Criar chaves ssh
+
+```console
+ssh-keygen
+```
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-21.png">
+</p>
+
+- Passo 4: Copiando a chave privada e criando uma credencial no jenkins com ela.
+
+```console
+cat ~/.ssh/id_rsa
+```
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-22.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-23.png">
+</p>
+
+- Passo 5: Copiar a chave pública
+
+```console
+cat ~/.ssh/id_rsa.pub
+```
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-24.png">
+</p>
+
+- Passo 6: Logar no `gitlab` com o usuário jenkins
+- Passo 7: Colocar a chave publica
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-25.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-26.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-27.png">
+</p>
+
+
 
 - [Api Token Gitlab](../configure_gitlab/README.md)
 
