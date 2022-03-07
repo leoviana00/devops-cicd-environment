@@ -3,7 +3,7 @@
   <a href="#plugins">Plugins</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#credenciais">Credenciais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#configurações-globais">Configurações Globais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#configurações-sistema">Configurações do sistema</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#configurações-do-sistema">Configurações do sistema</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#job">Job</a>
 </p>
 
@@ -227,7 +227,7 @@ cat ~/.ssh/id_rsa.pub
 
 ## Configurações-globais
 
-1. Configuração Maven
+1. Configuração `Maven`
 
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-29.png">
