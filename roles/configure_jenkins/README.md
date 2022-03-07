@@ -164,7 +164,7 @@ cat ~/.ssh/id_rsa.pub
 </p>
 
 - Passo 6: Logar no `gitlab` com o usuário jenkins
-- Passo 7: Colocar a chave publica
+- Passo 7: Adicionar a chave publica no GitLab
 
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-25.png">
