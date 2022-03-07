@@ -153,6 +153,8 @@ cat ~/.ssh/id_rsa
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-22.png">
 </p>
 
+- Manage Credentials
+
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-9.png">
 </p>
