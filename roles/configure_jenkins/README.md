@@ -107,7 +107,10 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 - Criar Chave privada e pública do Jenkins
 
-- Passo 1: Acessar a vm do jenkins
+- Passo 1: Acessar a vm do 
+```console
+ssh -i keys/vagrant vagrant@192.168.10.20
+```
 
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-18.png">
