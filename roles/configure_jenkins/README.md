@@ -86,7 +86,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 - SonarQube Scanner
 - Pipeline Utility Steps
 
-2. Passos da instalação, pegado o `GitLab` como exemplo:
+2. Passos da instalação, pegando o `GitLab` como exemplo:
 
 - Passo 1:
 
