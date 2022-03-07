@@ -60,7 +60,7 @@
 6. [Integração dos serviços](roles/integration.md) 
 
 
-<h3 align="center">Provisionamento e configuração da Infra</h3>
+<h3 align="center">Provisionamento da Infraestrutura e Serviços</h3>
 
 
 <p align="center">
