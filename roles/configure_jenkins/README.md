@@ -143,7 +143,7 @@ ssh-keygen
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-21.png">
 </p>
 
-- Passo 4: Copiando a chave privada e criando uma credencial no jenkins com ela.
+- Passo 5: Copiando a chave privada e criando uma credencial no jenkins com ela.
 
 ```console
 cat ~/.ssh/id_rsa
@@ -154,10 +154,30 @@ cat ~/.ssh/id_rsa
 </p>
 
 <p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-9.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-10.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-11.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-12.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-13.png">
+</p>
+
+<p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-23.png">
 </p>
 
-- Passo 5: Copiar a chave pública
+- Passo 6: Copiar a chave pública
 
 ```console
 cat ~/.ssh/id_rsa.pub
@@ -166,8 +186,8 @@ cat ~/.ssh/id_rsa.pub
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-24.png">
 </p>
 
-- Passo 6: Logar no `gitlab` com o usuário jenkins
-- Passo 7: Adicionar a chave publica no GitLab
+- Passo 7: Logar no `gitlab` com o usuário jenkins
+- Passo 8: Adicionar a chave publica no GitLab
 
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-25.png">
