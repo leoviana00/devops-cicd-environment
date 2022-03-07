@@ -208,10 +208,6 @@ cat ~/.ssh/id_rsa.pub
 - [Api Token Gitlab](../configure_gitlab/README.md)
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-13.png">
-</p>
-
-<p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-16.png">
 </p>
 
