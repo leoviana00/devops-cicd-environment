@@ -208,6 +208,10 @@ cat ~/.ssh/id_rsa.pub
 
 - [Api Token SonarQube](../configure_sonar/README.md)
 
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-28.png">
+</p>
+
 ## Configurações-Globais
 
 ## Configurações-do-sistema
