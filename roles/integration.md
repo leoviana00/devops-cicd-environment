@@ -22,8 +22,10 @@
 
 1. Logar no Sonar
 2. Gerar um token para integração com o `Jenkins`
+0. [Instruções](./configure_sonar/README.md)
 
 <h1 align="center">Jenkins</h1>
 
 1. Pegar o `Initial Admin Password`
 2. Instalar plugins padrão
+0. [Instruções](./configure_jenkins/README.md)
