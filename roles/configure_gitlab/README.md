@@ -20,6 +20,7 @@ sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 ## 2. Login
 
 - URL: http://192.168.10.10
+- password: `initial_root_password`
 
 <p align="center">
   <img alt="GitLab" src="../../data/gitlab.png">
