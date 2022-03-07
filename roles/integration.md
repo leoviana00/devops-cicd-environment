@@ -1,0 +1,5 @@
+## Integração
+
+- gitlab_access_token: ""
+- sonarqube_token_secret: ""
+- registry_pull_secret: ""

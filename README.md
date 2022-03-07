@@ -57,6 +57,8 @@
 
 5. [Criação de playbook ansible para subir os serviços](roles/README.md) 
 
+6. [Integração dos serviços](roles/integration.md) 
+
 
 <h3 align="center">Provisionamento e configuração da Infra</h3>
 
