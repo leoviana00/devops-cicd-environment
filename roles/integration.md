@@ -17,3 +17,13 @@
 3. Criar um token
 4. Criar o usuário `jenkins`
 0. [Instruções](./configure_gitlab/README.md)
+
+<h1 align="center">SonarQube</h1>
+
+1. Logar no Sonar
+2. Gerar um token para integração com o `Jenkins`
+
+<h1 align="center">Jenkins</h1>
+
+1. Pegar o `Initial Admin Password`
+2. Instalar plugins padrão
