@@ -15,5 +15,5 @@ ssh -i keys/vagrant vagrant@192.168.10.10
 
 - Executar o comando abaixo:
 ```console
-$ sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
+sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 ```
