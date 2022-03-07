@@ -1,4 +1,4 @@
-## GitLab
+<h1 align="center">GitLab</h1>
 
 ## 1. Initial Root Password: 
 
