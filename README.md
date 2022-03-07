@@ -49,13 +49,13 @@
 ## 🚀 Execução
 1. [Etapas do projeto](stages.md) 
 
-2. [Instalando ferramentas necessárias](packages/README.md) 
+2. [Dependências necessárias](packages/README.md) 
 
-3. [Criar chaves ssh para o projeto](keys/README.md)
+3. [Chave pública e privada](keys/README.md)
 
-4. [Criando as vms com vagrant e virtualbox](vagrant/README.MD) 
+4. [Provisionamento da infraestrutura](vagrant/README.MD) 
 
-5. [Criação de playbook ansible para subir os serviços](roles/README.md) 
+5. [Provisionamento dos serviços](roles/README.md) 
 
 6. [Integração dos serviços](roles/integration.md) 
 
