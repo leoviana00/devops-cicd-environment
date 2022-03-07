@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="#inicio">Início</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#configurações-iniciais">Configurações Iniciais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#plugins">Plugins</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#credenciais">Credenciais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#configurações globais">Configurações Globais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#configurações do sistema">Configurações do sistema</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#configurações-globais">Configurações Globais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#configurações-sistema">Configurações do sistema</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#job">Job</a>
 </p>
 
@@ -11,7 +11,7 @@
   <img alt="Jenkins" src="../../data/jenkins-logo.jpg">
 </p>
 
-## Inicio
+## Configurações-Iniciais
 
 1. Pegar `Inial Admin Password`
 
@@ -94,9 +94,9 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 - Api Token Gitlab
 - Api Token SonarQube
 
-## Configurações Globais
+## Configurações-Globais
 
-## Configurações do sistema
+## Configurações-do-sistema
 
 ## Job
 
