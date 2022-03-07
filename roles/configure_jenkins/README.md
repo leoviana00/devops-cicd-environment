@@ -75,7 +75,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 ## Plugins
 
-1. Instalando alguns plugins
+1. Plugins a serem instalados
 
 - GitLab 
 - HTTP Request
@@ -85,6 +85,21 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 - Docker
 - SonarQube Scanner
 - Pipeline Utility Steps
+
+2. Passos da instalação, pegado o `GitLab` como exemplo:
+
+- Passo 1:
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-14.png">
+</p>
+
+- Passo 2:
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-15.png">
+</p>
+
 
 ## Credenciais
 
