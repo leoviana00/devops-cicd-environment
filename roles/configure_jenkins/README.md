@@ -105,8 +105,10 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 1. Criando algumas `credenciais`
 
-- Chave Privada do Jenkins
-- Api Token Gitlab
+- Criar Chave privada e pública do Jenkins
+
+
+- [Api Token Gitlab](../configure_gitlab/README.md)
 
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-9.png">
@@ -132,7 +134,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-16.png">
 </p>
 
-- Api Token SonarQube
+- [Api Token SonarQube](../configure_sonar/README.md)
 
 ## Configurações-Globais
 
