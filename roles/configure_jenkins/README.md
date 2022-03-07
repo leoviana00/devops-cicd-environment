@@ -2,7 +2,7 @@
   <img alt="Jenkins" src="../../data/jenkins-logo.jpg">
 </p>
 
-## Integração
+## Configurações
 1. [Configurações Iniciais](./configuracoes-iniciais.md)
 2. [Plugins](./plugins.md)
 3. [Credenciais](./credenciais.md)
