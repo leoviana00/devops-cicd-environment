@@ -1,4 +1,13 @@
 <p align="center">
+  <a href="#-inicio">Início</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-plugins">Plugins</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-credenciais">Credenciais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-configurações globais">Configurações Globais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-configurações do sistema">Configurações do sistema</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-job">Job</a>
+</p>
+
+<p align="center">
   <img alt="Jenkins" src="../../data/jenkins-logo.jpg">
 </p>
 
