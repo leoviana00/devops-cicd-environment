@@ -107,6 +107,31 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 - Chave Privada do Jenkins
 - Api Token Gitlab
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-9.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-10.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-11.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-12.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-13.png">
+</p>
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-16.png">
+</p>
+
 - Api Token SonarQube
 
 ## Configurações-Globais
