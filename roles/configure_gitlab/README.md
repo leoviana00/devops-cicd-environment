@@ -8,7 +8,12 @@
 
 ## Initial Root Password: 
 
+- Acessar a vm
+```console
+ssh -i keys/vagrant vagrant@192.168.10.10
+```
+
+- Executar o comando abaixo:
 ```console
 $ sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 ```
-- saída: ZQHC04N7FrUli18yr4kI+in7oyk7brA1BtiakYmFsiA=
