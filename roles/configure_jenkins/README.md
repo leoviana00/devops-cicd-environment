@@ -68,7 +68,7 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 1. Instalando alguns plugins
 
-- GitLab Plugin
+- GitLab 
 - HTTP Request
 - Config File Provider
 - Logstash
