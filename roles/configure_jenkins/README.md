@@ -217,9 +217,21 @@ cat ~/.ssh/id_rsa.pub
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-28.png">
 </p>
 
-## Configurações-Globais
-
 ## Configurações-do-sistema
+
+1. Configuração do `GitLab`.
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-17.png">
+</p>
+
+## Configurações-globais
+
+1. Configuração Maven
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-29.png">
+</p>
 
 ## Job
 
