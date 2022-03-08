@@ -10,7 +10,7 @@
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-17.png">
 </p>
 
-2. Configuração so SonarQube Server
+2. Configuração do `SonarQube Server`
 
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-31.png">
