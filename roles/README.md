@@ -6,7 +6,7 @@
 - [Configure Hosts](./configure_hosts/README.md)  (Para configurar o docker nas VMs)
 - [Registry](./configure_registry/README.md)  (Para subir um registry privado e poder guardar nossas imagens)
 - [Gitlab](./configure_gitlab/README.md)  (Para subir um gitlab privado para versionamento do código)
-- [Jenkins](./configure_jenkins/README.MD)  (Para subir e configurar o jenkins)
+- [Jenkins](./configure_jenkins/README.md)  (Para subir e configurar o jenkins)
 - [Sonar](./configure_sonar/README.md)  (Para subir o Sonar)
 
 ## Inventories
