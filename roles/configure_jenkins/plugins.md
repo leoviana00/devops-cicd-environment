@@ -10,6 +10,7 @@
 - Docker
 - SonarQube Scanner
 - Pipeline Utility Steps
+- Sonar Quality Gates
 
 2. Passos da instalação, pegando o `GitLab` como exemplo:
 

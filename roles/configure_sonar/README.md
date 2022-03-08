@@ -47,3 +47,5 @@
 <p align="center">
   <img alt="Sonar" src="../../data/sonar-images/sonar-admin-7.png">
 </p>
+
+## Configurar `webhook`
