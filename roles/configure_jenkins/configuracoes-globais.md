@@ -1,5 +1,9 @@
 ## Configurações-globais
 
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-33.png">
+</p>
+
 1. Configuração `Maven`
 
 <p align="center">

@@ -1,5 +1,9 @@
 ## Configurações-do-sistema
 
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-34.png">
+</p>
+
 1. Configuração do `GitLab`.
 
 <p align="center">
