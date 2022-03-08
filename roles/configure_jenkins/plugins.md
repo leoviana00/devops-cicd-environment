@@ -19,8 +19,14 @@
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-14.png">
 </p>
 
-- Passo 2:
+- GitLab:
 
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-15.png">
+</p>
+
+-	SonarQube Scanner:
+
+<p align="center">
+  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-30.png">
 </p>
