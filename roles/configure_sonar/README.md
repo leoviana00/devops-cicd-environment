@@ -48,7 +48,7 @@
   <img alt="Sonar" src="../../data/sonar-images/sonar-admin-7.png">
 </p>
 
-## 4.Configurar `webhook`
+## 4. Configurar `webhook`
 
 <p align="center">
   <img alt="Sonar" src="../../data/sonar-images/sonar-admin-8.png">
@@ -67,4 +67,6 @@
 <p align="center">
   <img alt="Sonar" src="../../data/sonar-images/sonar-admin-11.png">
 </p>
+
+## 5. Quality Gate
 
