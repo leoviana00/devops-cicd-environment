@@ -48,4 +48,21 @@
   <img alt="Sonar" src="../../data/sonar-images/sonar-admin-7.png">
 </p>
 
-## Configurar `webhook`
+## 4.Configurar `webhook`
+
+<p align="center">
+  <img alt="Sonar" src="../../data/sonar-images/sonar-admin-8.png">
+</p>
+
+<p align="center">
+  <img alt="Sonar" src="../../data/sonar-images/sonar-admin-9.png">
+</p>
+
+<p align="center">
+  <img alt="Sonar" src="../../data/sonar-images/sonar-admin-10.png">
+</p>
+
+<p align="center">
+  <img alt="Sonar" src="../../data/sonar-images/sonar-admin-11.png">
+</p>
+
