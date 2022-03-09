@@ -16,7 +16,7 @@ ssh -i keys/vagrant vagrant@192.168.10.20
 - Passo 2: Acessar o container jenkins
 
 ```console
-docker exec -it jenkins
+docker exec -it jenkins /bin/bash
 ```
 <p align="center">
   <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-19.png">
