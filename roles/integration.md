@@ -26,6 +26,9 @@
 
 <h1 align="center">Jenkins</h1>
 
-1. Pegar o `Initial Admin Password`
-2. Instalar plugins padrão
-0. [Instruções](./configure_jenkins/README.md)
+1. [Configurações Iniciais](./configure_jenkins/docs/configuracoes-iniciais.md)
+2. [Plugins](./configure_jenkins/docs/plugins.md)
+3. [Credenciais](./configure_jenkins/docs/credenciais.md)
+4. [Configurações do Sistema](./configure_jenkins/docs/configuracoes-sistema.md)
+5. [Configurações Globais](./configure_jenkins/docs/configuracoes-globais.md)
+6. [Job - Pipeline Java]()
