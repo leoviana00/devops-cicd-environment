@@ -102,13 +102,13 @@ cat ~/.ssh/id_rsa.pub
 
 
 
-- [Api Token Gitlab](../configure_gitlab/README.md)
+- [Api Token Gitlab](../../configure_gitlab/docs/token.md)
 
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-16.png">
 </p>
 
-- [Api Token SonarQube](../configure_sonar/README.md)
+- [Api Token SonarQube](../../configure_sonar/docs/token.md)
 
 <p align="center">
   <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-28.png">
