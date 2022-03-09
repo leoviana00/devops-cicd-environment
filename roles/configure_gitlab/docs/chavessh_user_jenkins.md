@@ -1,7 +1,8 @@
 ## Colocar chave ssh do Jenkins no GitLab - User Jenkins 
-- Pegar a chave pública
+
 - Entar no container que está rodando o serviço `jenkins`
 - Sair do user root para o usuário jenkins
+- Copiar a chave pública
 
 ```console
 cat ~/.ssh/id_rsa.pub
