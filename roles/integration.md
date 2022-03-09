@@ -3,9 +3,9 @@
 - Informações que vamos precisar:
 
 ```console
-- gitlab_access_token: ""
-- sonarqube_token_secret: ""
-- registry_pull_secret: ""
+- Gitlab Access Token: ""
+- SonarQube Token Secret: ""
+- Jenkins Public Key: ""
 ```
 
 ## Etapas da integração
@@ -30,4 +30,3 @@
 3. [Credenciais](./configure_jenkins/docs/credenciais.md)
 4. [Configurações do Sistema](./configure_jenkins/docs/configuracoes-sistema.md)
 5. [Configurações Globais](./configure_jenkins/docs/configuracoes-globais.md)
-6. [Job - Pipeline Java]()
