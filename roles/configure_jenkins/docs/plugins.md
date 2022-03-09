@@ -17,17 +17,17 @@
 - Passo 1:
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-14.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-14.png">
 </p>
 
 - GitLab:
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-15.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-15.png">
 </p>
 
 -	SonarQube Scanner:
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-30.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-30.png">
 </p>

@@ -5,11 +5,11 @@
 - Password: `admin`
 
 <p align="center">
-  <img alt="Sonar" src="../../data/sonar-images/sonar-admin-1.png">
+  <img alt="Sonar" src="../../../data/sonar-images/sonar-admin-1.png">
 </p>
 
 ## 2. Redefinir senha `admin`.
 
 <p align="center">
-  <img alt="Sonar" src="../../data/sonar-images/sonar-admin-2.png">
+  <img alt="Sonar" src="../../../data/sonar-images/sonar-admin-2.png">
 </p>

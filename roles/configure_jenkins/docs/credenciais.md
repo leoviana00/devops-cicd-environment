@@ -10,7 +10,7 @@ ssh -i keys/vagrant vagrant@192.168.10.20
 ```
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-18.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-18.png">
 </p>
 
 - Passo 2: Acessar o container jenkins
@@ -19,7 +19,7 @@ ssh -i keys/vagrant vagrant@192.168.10.20
 docker exec -it jenkins
 ```
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-19.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-19.png">
 </p>
 
 - Passo 3: Mudando para usuário `jenkins`
@@ -28,7 +28,7 @@ docker exec -it jenkins
 su jenkins
 ```
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-20.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-20.png">
 </p>
 
 - Passo 4: Criar chaves ssh
@@ -37,7 +37,7 @@ su jenkins
 ssh-keygen
 ```
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-21.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-21.png">
 </p>
 
 - Passo 5: Copiando a chave privada e criando uma credencial no jenkins com ela.
@@ -47,33 +47,33 @@ cat ~/.ssh/id_rsa
 ```
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-22.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-22.png">
 </p>
 
 - Manage Credentials
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-9.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-9.png">
 </p>
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-10.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-10.png">
 </p>
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-11.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-11.png">
 </p>
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-12.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-12.png">
 </p>
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-13.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-13.png">
 </p>
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-23.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-23.png">
 </p>
 
 - Passo 6: Copiar a chave pública
@@ -82,22 +82,22 @@ cat ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
 ```
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-24.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-24.png">
 </p>
 
 - Passo 7: Logar no `gitlab` com o usuário jenkins
 - Passo 8: Adicionar a chave publica no GitLab
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-25.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-25.png">
 </p>
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-26.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-26.png">
 </p>
 
 <p align="center">
-  <img alt="Jenkins" src="../../data/jenkins-images/jenkins-admin-27.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-27.png">
 </p>
 
 

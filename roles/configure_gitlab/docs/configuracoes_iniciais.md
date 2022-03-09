@@ -11,7 +11,7 @@ sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 ```
 
 <p align="center">
-  <img alt="GitLab" src="../../data/initial-password-root-gitlab.png">
+  <img alt="GitLab" src="../../../data/initial-password-root-gitlab.png">
 </p>
 
 ## 2. Login
@@ -20,7 +20,7 @@ sudo docker exec -it gitlab grep 'Password:' /etc/gitlab/initial_root_password
 - password: `initial_root_password`
 
 <p align="center">
-  <img alt="GitLab" src="../../data/gitlab.png">
+  <img alt="GitLab" src="../../../data/gitlab.png">
 </p>
 
 ```console
@@ -31,17 +31,17 @@ password: initial_root_password
 ## 3. Redefinindo o password do `admin`
 
 <p align="center">
-  <img alt="GitLab" src="../../data/gitlab-images/git-admin-1.png">
+  <img alt="GitLab" src="../../../data/gitlab-images/git-admin-1.png">
 </p>
 
 <p align="center">
-  <img alt="GitLab" src="../../data/gitlab-images/git-admin-2.png">
+  <img alt="GitLab" src="../../../data/gitlab-images/git-admin-2.png">
 </p>
 
 <p align="center">
-  <img alt="GitLab" src="../../data/gitlab-images/git-admin-3.png">
+  <img alt="GitLab" src="../../../data/gitlab-images/git-admin-3.png">
 </p>
 
 <p align="center">
-  <img alt="GitLab" src="../../data/gitlab-images/git-admin-4.png">
+  <img alt="GitLab" src="../../../data/gitlab-images/git-admin-4.png">
 </p>
