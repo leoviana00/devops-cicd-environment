@@ -1,5 +1,7 @@
 <h1 align="center">Pipeline Jenkins</h1>
 
+- Criação do `pipeline` para os dois projetos criados.
+
 ## Pipeline `java-api-demo-sonar-fail`
 
 - Stages:
