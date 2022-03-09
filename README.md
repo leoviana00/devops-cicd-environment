@@ -47,21 +47,21 @@
 </p>
 
 ## 🚀 Execução
-1. [Etapas do projeto](stages.md) 
+0. [Planejamento - Etapas do projeto](stages.md) 
 
-2. [Dependências necessárias](packages/README.md) 
+1. [Dependências necessárias](packages/README.md) 
 
-3. [Chave pública e privada](keys/README.md)
+2. [Chave pública e privada](keys/README.md)
 
-4. [Provisionamento da infraestrutura](vagrant/README.MD) 
+3. [Provisionamento da infraestrutura](vagrant/README.MD) 
 
-5. [Provisionamento dos serviços](roles/README.md) 
+4. [Provisionamento dos serviços](roles/README.md) 
 
-6. [Integração dos serviços](roles/integration.md) 
+5. [Integração dos serviços](roles/integration.md) 
 
-7. [Construção da API rest]()
+6. [Construção da API rest]()
 
-8. [Desenvolvimento da Pipeline]()
+7. [Desenvolvimento da Pipeline]()
 
 
 <h3 align="center">Provisionamento da Infraestrutura e Serviços</h3>
