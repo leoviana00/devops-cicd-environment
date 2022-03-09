@@ -61,7 +61,7 @@
 
 6. [Construção da API rest](./docs/api-rest-java.md)
 
-7. [Desenvolvimento da Pipeline]()
+7. [Desenvolvimento da Pipeline](./roles/configure_jenkins/files/jenkinsfile/jobs.md)
 
 
 <h3 align="center">Provisionamento da Infraestrutura e Serviços</h3>
