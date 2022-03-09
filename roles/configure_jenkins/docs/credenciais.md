@@ -76,31 +76,7 @@ cat ~/.ssh/id_rsa
   <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-23.png">
 </p>
 
-- Passo 6: Copiar a chave pública
-
-```console
-cat ~/.ssh/id_rsa.pub
-```
-<p align="center">
-  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-24.png">
-</p>
-
-- Passo 7: Logar no `gitlab` com o usuário jenkins
-- Passo 8: Adicionar a chave publica no GitLab
-
-<p align="center">
-  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-25.png">
-</p>
-
-<p align="center">
-  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-26.png">
-</p>
-
-<p align="center">
-  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-27.png">
-</p>
-
-
+- [Colocar chave ssh pública do Jenkins no GitLab](../../configure_gitlab/docs/chavessh_user_jenkins.md)
 
 - [Api Token Gitlab](../../configure_gitlab/docs/token.md)
 
