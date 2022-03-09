@@ -12,17 +12,15 @@
 
 <h1 align="center">GitLab</h1>
 
-1. Pegar o `initial password` e logar com o usuário `root`
-2. Redefinir o password do user `admin`, pois o `initial password` é temporário.
-3. Criar um token
-4. Criar o usuário `jenkins`
-0. [Instruções](./configure_gitlab/README.md)
+1. [Configurações Iniciais](./configure_gitlab/docs/configuracoes_iniciais.md)
+2. [Gerar Token para integrar com o jenkins](./configure_gitlab/docs/token.md)
+3. [Criando usuário Jenkins](./configure_gitlab/docs/criancao_user.md)
 
 <h1 align="center">SonarQube</h1>
 
-1. Logar no Sonar
-2. Gerar um token para integração com o `Jenkins`
-0. [Instruções](./configure_sonar/README.md)
+1. [Configurações Iniciais](./configure_sonar/docs/configuracoes-iniciais.md)
+2. [Gerar Token para integrar com o jenkins](./configure_sonar/docs/token.md)
+3. [Configurar webhook](./configure_sonar/docs/webhook.md)
 
 <h1 align="center">Jenkins</h1>
 
