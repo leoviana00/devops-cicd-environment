@@ -15,6 +15,7 @@
 1. [Configurações Iniciais](./configure_gitlab/docs/configuracoes_iniciais.md)
 2. [Gerar Token para integrar com o jenkins](./configure_gitlab/docs/token.md)
 3. [Criando usuário Jenkins](./configure_gitlab/docs/criancao_user.md)
+4. [Armazenando chave pública do Jenkins](./configure_gitlab/docs/chavessh_user_jenkins.md)
 
 <h1 align="center">SonarQube</h1>
 
