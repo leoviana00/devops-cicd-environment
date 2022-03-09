@@ -59,6 +59,10 @@
 
 6. [Integração dos serviços](roles/integration.md) 
 
+7. [Construção da API rest]()
+
+8. [Desenvolvimento da Pipeline]()
+
 
 <h3 align="center">Provisionamento da Infraestrutura e Serviços</h3>
 
