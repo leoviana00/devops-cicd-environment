@@ -4,7 +4,7 @@
 
 - Criar Chave privada e pública do Jenkins
 
-- Passo 1: Acessar a vm do 
+- Passo 1: Acessar a vm do jenkins
 ```console
 ssh -i keys/vagrant vagrant@192.168.10.20
 ```
