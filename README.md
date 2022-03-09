@@ -47,7 +47,7 @@
 </p>
 
 ## 🚀 Execução
-0. [Planejamento - Etapas do projeto](stages.md) 
+0. [Planejamento - Etapas do projeto](./docs/stages.md) 
 
 1. [Dependências necessárias](packages/README.md) 
 
@@ -59,7 +59,7 @@
 
 5. [Integração dos serviços](roles/integration.md) 
 
-6. [Construção da API rest]()
+6. [Construção da API rest](./docs/api-rest-java.md)
 
 7. [Desenvolvimento da Pipeline]()
 
