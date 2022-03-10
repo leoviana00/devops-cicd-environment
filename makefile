@@ -11,7 +11,7 @@ jenkins:
 	ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags jenkins
 
 # Inicializando configuração do registry
-jenkins:
+registry:
 	ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags registry
 
 # Inicializando configuração do sonar

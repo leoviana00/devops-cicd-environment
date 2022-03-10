@@ -33,5 +33,21 @@ node {
        }
     }
   }
-  
+
+
+  stage ("Docker Build"){
+    def pom = readMavenPom file: ''
+    def dockerRegistry = '192.168.10.30:5000'
+      configFileProvider([configFile(fileId: 'Dockerfile', variable: 'DOCKERFILE')]) {
+        withCredentials([usernamePassword(credentialsId: 'RegistryPullSecret', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+          sh "docker login ${dockerRegistry} --username ${USERNAME} --password ${PASSWORD}"
+          sh "cp ${DOCKERFILE} Dockerfile"
+          sh "docker build -t ${dockerRegistry}/${pom.artifactId}:${pom.version} ." 
+          sh "docker build -t ${dockerRegistry}/${pom.artifactId}:latest ."
+          sh "docker push ${dockerRegistry}/${pom.artifactId}:${pom.version}"
+          sh "docker push ${dockerRegistry}/${pom.artifactId}:latest"
+        }
+      }
+  }
+
 }
