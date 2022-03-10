@@ -18,4 +18,5 @@
     - Build com maven
     - Teste com maven
     - Analise com sonar
-    - Quality Gat
+    - Quality Gate
+    - Docker Build
