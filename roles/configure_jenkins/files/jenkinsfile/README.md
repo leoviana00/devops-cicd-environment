@@ -10,6 +10,7 @@
     - Teste com maven
     - Analise com sonar
     - Quality Gate
+    - Docker Build
     
 ## Pipeline `java-api-demo-sonar-success`
 
