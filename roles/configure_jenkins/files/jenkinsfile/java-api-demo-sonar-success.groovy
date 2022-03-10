@@ -50,4 +50,8 @@ node {
       }
   }
 
+  stage ("Deploy"){
+    sh "echo deploy"
+  }
+
 }
