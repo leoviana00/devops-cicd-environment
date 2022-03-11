@@ -21,7 +21,7 @@
 </p>
 
 
-## 2. Criando o `Quality Gate`
+## 2. Criando um novo `Quality Gate`
 
 - Passo 1: Quality Gates
 
@@ -61,7 +61,7 @@
 
 ## 3. Atribuindo o Quality Gate ao projeto
 
-- Passo 1:
+- Passo 1: Acessar o projeto `java-api-demo-sonar-fail`.
 
 <p align="center">
   <img alt="Sonar" src="../../../data/sonar-images/sonar-admin-20.png">
@@ -78,6 +78,8 @@
 <p align="center">
   <img alt="Sonar" src="../../../data/sonar-images/sonar-admin-22.png">
 </p>
+
+- Realizar os mesmos passos para o projeto: `java-api-demo-sonar-success`.
 
 ## 4. Projetos utilizando o `Quality Gate` criado, `Java Way`.
 
