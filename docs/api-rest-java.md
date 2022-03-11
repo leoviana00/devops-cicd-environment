@@ -1,6 +1,8 @@
-<h1 align="center">Criando Projetos Spring</h1>
+<h1 align="center">Projetos Spring</h1>
 
 - Criação de projetos spring, vou utilizar o templates do `gitlab` para criação do projeto. Serão criados 2 projetos, um para passar com 100% na cobertura de código do sonar obtendo sucesso e outro com 50% obtendo falha.
+
+## Criando os projetos
 
 - Projeto 1: java-api-demo-sonar-success
 
@@ -37,3 +39,21 @@
 
 - Projeto 2: java-api-demo-sonar-fail
 - Segue os mesmos passos do projeto 1, mudando apenas o nome do projeto.
+
+## Executando os projetos
+
+- Rodando o projeto
+
+```console
+mvn spring-boot:run
+```
+
+<p align="center">
+  <img alt="Project1" src="../data/app-images/app-admin-1.png">
+</p>
+
+- URL: http://localhost:8091/
+
+<p align="center">
+  <img alt="Project1" src="../data/app-images/app-admin-2.png">
+</p>
