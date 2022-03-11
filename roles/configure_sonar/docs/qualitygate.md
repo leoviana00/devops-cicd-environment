@@ -1,10 +1,25 @@
 ## 1. Projetos utilizando o Quality Gate padrão `Sonar Way`.
 
-- Os dois projetos utilizado o `Quality Gate` padrão.
+- Acompanhamento pela dashboard do `sonar`.
 
 <p align="center">
   <img alt="Sonar" src="../../../data/sonar-images/sonar-admin-19.png">
 </p>
+
+- Acompanhamento pela dashboardo do `jenkins`.
+
+- `java-api-demo-sonar-success`
+
+<p align="center">
+  <img alt="Sonar" src="../../../data/jenkins-images/jenkins-admin-37.png">
+</p>
+
+- `java-api-demo-sonar-fail`
+
+<p align="center">
+  <img alt="Sonar" src="../../../data/jenkins-images/jenkins-admin-38.png">
+</p>
+
 
 ## 2. Criando o `Quality Gate`
 
@@ -66,6 +81,21 @@
 
 ## 4. Projetos utilizando o `Quality Gate` criado, `Java Way`.
 
+- Acompanhamento pela dashboard do `sonar`.
+
 <p align="center">
   <img alt="Sonar" src="../../../data/sonar-images/sonar-admin-23.png">
+</p>
+
+- Acompanhamento pela dashboard do `jenkins`.
+- `java-api-demo-sonar-success`
+
+<p align="center">
+  <img alt="Sonar" src="../../../data/jenkins-images/jenkins-admin-40.png">
+</p>
+
+- `java-api-demo-sonar-fail`
+
+<p align="center">
+  <img alt="Sonar" src="../../../data/jenkins-images/jenkins-admin-39.png">
 </p>
