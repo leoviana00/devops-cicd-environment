@@ -22,6 +22,7 @@
 1. [Configurações Iniciais](./configure_sonar/docs/configuracoes-iniciais.md)
 2. [Gerar Token para integrar com o jenkins](./configure_sonar/docs/token.md)
 3. [Configurar webhook](./configure_sonar/docs/webhook.md)
+4. [Configurar Quality Gate](./configure_sonar/docs/qualitygate.md)
 
 <h1 align="center">Jenkins</h1>
 
