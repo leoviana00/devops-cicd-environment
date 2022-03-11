@@ -42,7 +42,7 @@
 
 ## Executando os projetos
 
-- Rodando o projeto
+- Rodando o projeto `java-api-demo-sonar-success`.
 
 ```console
 mvn spring-boot:run
