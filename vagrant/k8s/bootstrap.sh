@@ -50,7 +50,7 @@ echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
 systemctl reload sshd
 
 echo "PASSO 08 - DEFINIR A SENHA DO ROOT"
-echo -e "kubeadmin\nkubeadmin" | passwd root >/dev/null 2>&1
+echo -e "pulse\npulse" | passwd root >/dev/null 2>&1
 echo "export TERM=xterm" >> /etc/bash.bashrc
 
 echo "PASSO 08 - ALTERAR O ARQUIVO /etc/hosts"
