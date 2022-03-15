@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
   # Kubernetes Master Server
   config.vm.define "k8s-control" do |node|
   
-    node.vm.box               = "ubuntu/focal64"
+    node.vm.box               = "bento/ubuntu-20.04"
     node.vm.box_check_update  = false
     node.vm.hostname          = "k8s-control.labs.com.br"
 
@@ -34,7 +34,7 @@ Vagrant.configure(2) do |config|
 
     config.vm.define "k8s-node#{i}" do |node|
 
-      node.vm.box               = "ubuntu/focal64"
+      node.vm.box               = "bento/ubuntu-20.04"
       node.vm.box_check_update  = false
       node.vm.hostname          = "k8s-node#{i}.labs.com.br"
 
