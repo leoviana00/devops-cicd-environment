@@ -26,6 +26,9 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```console
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.5.0/aio/deploy/recommended.yaml
 ```
+<p align="center">
+  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-5.png">
+</p>
 
 - Criar um usuário `Admin Panel`
 ```console
@@ -81,12 +84,19 @@ spec:
 ```console
 kubectl apply -f kubernetes-dashboard-service.yaml
 ```
+<p align="center">
+  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-6.png">
+</p>
 
 ## `Token` de acesso a Dashboard
 
 ```console
 kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}')
 ```
+
+<p align="center">
+  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-7.png">
+</p>
 
 ## `Url` de acesso
 
