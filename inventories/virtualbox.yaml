@@ -13,8 +13,6 @@ all:
       ansible_host: 192.168.10.10
     registry-virtualbox:
       ansible_host: 192.168.10.30
-    server-virtualbox:
-      ansible_host: 192.168.10.60
 
   children:
     cicd:
@@ -32,8 +30,4 @@ all:
     sonar:
       hosts:
         sonar-virtualbox:
-    
-    server:
-      hosts:
-        server-virtualbox:
     

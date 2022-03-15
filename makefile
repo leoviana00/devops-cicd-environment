@@ -3,7 +3,7 @@ init:
 	xargs -a packages/packages.txt sudo apt-get install -y
 
 # Inicializando configuração do docker nos hosts
-docker:
+container:
 	ansible-playbook -i inventories/virtualbox.yaml site.yaml --tags setup
 
 # Inicializando configuração do jenkins

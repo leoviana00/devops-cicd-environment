@@ -22,14 +22,6 @@
   roles:
     - role: configure_sonar
 
-- name: Deploy Gitlab
-  hosts: gitlab-virtualbox
-  remote_user: vagrant
-  become: true
-  tags: gitlab
-  roles:
-    - role: configure_gitlab
-
 - name: Deploy Registry
   hosts: registry-virtualbox
   remote_user: vagrant
