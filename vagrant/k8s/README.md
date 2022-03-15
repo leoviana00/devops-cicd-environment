@@ -1,4 +1,4 @@
-<h1 align="center">Kubernetes</h1>
+<!-- <h1 align="center">Kubernetes</h1> -->
 
 <p align="center">
   <img alt="k8s" src="../../data/k8s-images/k8s-admin-0.png">
