@@ -1,12 +1,16 @@
 <h1 align="center">Kubernetes</h1>
 
+<p align="center">
+  <img alt="k8s" src="../../data/k8s-images/k8s-admin-0.png">
+</p>
+
 ## Iniciar instalação
 ```console
 vagrant up
 ```
 
 <p align="center">
-  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-4.png">
+  <img alt="k8s" src="../../data/k8s-images/k8s-admin-4.png">
 </p>
 
 ## Logar no control plane
@@ -27,7 +31,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.5.0/aio/deploy/recommended.yaml
 ```
 <p align="center">
-  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-5.png">
+  <img alt="k8s" src="../../data/k8s-images/k8s-admin-5.png">
 </p>
 
 - Criar um usuário `Admin Panel`
@@ -85,7 +89,7 @@ spec:
 kubectl apply -f kubernetes-dashboard-service.yaml
 ```
 <p align="center">
-  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-6.png">
+  <img alt="k8s" src="../../data/k8s-images/k8s-admin-6.png">
 </p>
 
 ## `Token` de acesso a Dashboard
@@ -95,7 +99,7 @@ kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboar
 ```
 
 <p align="center">
-  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-7.png">
+  <img alt="k8s" src="../../data/k8s-images/k8s-admin-7.png">
 </p>
 
 ## `Url` de acesso
@@ -103,13 +107,13 @@ kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboar
 https://172.16.16.100:30002/#/login
 
 <p align="center">
-  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-3.png">
+  <img alt="k8s" src="../../data/k8s-images/k8s-admin-3.png">
 </p>
 
 <p align="center">
-  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-1.png">
+  <img alt="k8s" src="../../data/k8s-images/k8s-admin-1.png">
 </p>
 
 <p align="center">
-  <img alt="DevOps" src="../../data/k8s-images/k8s-admin-2.png">
+  <img alt="k8s" src="../../data/k8s-images/k8s-admin-2.png">
 </p>
