@@ -8,8 +8,3 @@ kubectl --kubeconfig=/etc/kubernetes/admin.conf create -f https://docs.projectca
 
 echo "PASSO 03 - GERAR O COMANDO DE JOIN DOS NODES"
 kubeadm token create --print-join-command > /joincluster.sh 2>/dev/null
-
-echo "PASSO 04 - CONFIGURAR O KUBECTL "
-mkdir -p $HOME/.kube
-sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-sudo chown $(id -u):$(id -g) $HOME/.kube/config
