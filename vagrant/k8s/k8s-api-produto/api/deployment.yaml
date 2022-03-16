@@ -15,12 +15,12 @@ spec:
       - name: api
         image: leoviana00/api-produto:v1
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         imagePullPolicy: Always
         env:
           - name: MONGODB_URI
             value: mongodb://mongodbuser:mongodbpwd@mongo-service:27017/admin
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: 8080
+        # livenessProbe:
+        #   httpGet:
+        #     path: /health
+        #     port: 8080
