@@ -19,7 +19,7 @@ spec:
         imagePullPolicy: Always
         env:
           - name: MONGODB_URI
-            value: mongodb://mongodbuser:mongodbpwd@mongo-service:27017/admin
+            value: mongodb://mongodbuser:mongopwd@mongo-service:27017/admin
         livenessProbe:
           httpGet:
             path: /health
