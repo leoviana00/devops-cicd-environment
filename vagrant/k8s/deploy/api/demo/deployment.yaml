@@ -13,7 +13,7 @@ spec:
         - name: java-api-demo-sonar-success
           image: '192.168.10.30:5000/java-api-demo-sonar-success:latest'
           ports:
-          - containerPort: 8080
+          - containerPort: 80
           livenessProbe:
             httpGet:
               path: /actuator/health
