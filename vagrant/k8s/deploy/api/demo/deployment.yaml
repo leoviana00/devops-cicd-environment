@@ -1,25 +1,41 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java-api-demo-sonar-success-deployment
+  name: java-api-demo-sonar-success
 spec:
   selector:
     matchLabels:
       app: java-api-demo-sonar-success
-  template: 
-    metadata:       
+  replicas: ${REPLICAS}
+  revisionHistoryLimit: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 0
+      maxSurge: 1
+  template:
+    metadata:
       labels:
         app: java-api-demo-sonar-success
-    spec:            
+    spec:
       containers:
-      - name: java-api-demo-sonar-success-container
-        image: 192.168.10.30:5000/java-api-demo-sonar-success:latest
-        ports:
-        - containerPort: 80
-        imagePullPolicy: Always
+        - name: java-api-demo-sonar-success-container
+          image: 192.168.10.30:5000/java-api-demo-sonar-success
+          # resources:
+          #   requests:
+          #     cpu: ${REQUEST_CORES}
+          #     memory: ${REQUEST_MEMORY}
+          #   limits:
+          #     cpu: "${MAX_CORES}"
+          #     memory: "${MAX_MEMORY}"
+          # envFrom:
+          #   - configMapRef:
+          #       name: java-api-demo-sonar-success-config
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+      terminationGracePeriodSeconds: 60
+      # nodeSelector:
+      #   general: "true"
       imagePullSecrets:
-      - name: registrypull
-        readinessProbe:
-          httpGet:
-            path: /actuator/health
-            port: 8080
+        - name: registrypull
