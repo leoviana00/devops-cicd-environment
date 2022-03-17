@@ -18,3 +18,11 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
+
+## Verificação
+
+- Verificando os nodes
+
+<p align="center">
+  <img alt="nodes" src="../../../data/k8s-images/k8s-admin-8.png">
+</p>
