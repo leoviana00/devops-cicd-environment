@@ -17,7 +17,7 @@ spec:
         ports:
         - containerPort: 80
         imagePullPolicy: Always
-        livenessProbe:
+        readinessProbe:
           httpGet:
             path: /actuator/health
             port: 8080
