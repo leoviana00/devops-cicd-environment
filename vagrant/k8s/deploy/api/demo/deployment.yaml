@@ -16,5 +16,5 @@ spec:
           - containerPort: 8080
           livenessProbe:
             httpGet:
-              path: /actuator
+              path: /actuator/health
               port: 8080
