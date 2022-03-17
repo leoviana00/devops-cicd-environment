@@ -8,6 +8,18 @@
  sudo usermod -aG docker $USER
 ```
 
+- Em caso de erro:  Options to Fix sub-process /usr/bin/dpkg returned an error code (1)
+
+1. Method 1: Reconfigure dpkg Database
+```console
+sudo dpkg --configure -a
+```
+2. Caso não funcione: Method 2: Force-Install the Software
+```console
+sudo apt-get install -f
+```
+
+
 ## Instalando o `Kind`
 ```console
 curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.9.0/kind-linux-amd64
