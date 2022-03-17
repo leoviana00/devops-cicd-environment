@@ -17,4 +17,4 @@ spec:
           livenessProbe:
             httpGet:
               path: /actuator
-              port: 8091
+              port: 8080
