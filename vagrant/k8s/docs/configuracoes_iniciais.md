@@ -22,6 +22,9 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ## Verificação
 
 - Verificando os nodes
+```console
+kubectl get nodes
+```
 
 <p align="center">
   <img alt="nodes" src="../../../data/k8s-images/k8s-admin-8.png">
