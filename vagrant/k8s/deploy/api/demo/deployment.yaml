@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: java-api-demo-sonar-success
-          image: 'leoviana00/java-api-demo-sonar-success:0.1.0'
+          image: '192.168.10.30:5000/java-api-demo-sonar-success:latest'
           ports:
           - containerPort: 8080
           livenessProbe:
