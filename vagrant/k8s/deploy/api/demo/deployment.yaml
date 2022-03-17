@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: spring-boot-example
+  name: java-api-demo-sonar-success
 spec:
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       labels:
-        app: spring-boot-example
+        app: java-api-demo-sonar-success
     spec:
       containers:
-        - name: spring-boot-example
-          image: 'gcr.io/fleet-resolver-237016/spring-boot-example:v1'
+        - name: java-api-demo-sonar-success
+          image: 'leoviana00/java-api-demo-sonar-success:0.1.0'
           ports:
             - containerPort: 8080
