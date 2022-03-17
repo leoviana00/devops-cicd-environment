@@ -13,8 +13,8 @@ spec:
         - name: java-api-demo-sonar-success
           image: 'leoviana00/java-api-demo-sonar-success:0.1.0'
           ports:
-            - containerPort: 8080
-                  livenessProbe:
-          httpGet:
-            path: /actuator
-            port: 8080
+            - containerPort: 8091
+          livenessProbe:
+            httpGet:
+              path: /actuator
+              port: 8091
