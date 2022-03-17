@@ -17,8 +17,8 @@ spec:
         ports:
         - containerPort: 80
         imagePullPolicy: Always
-        imagePullSecrets:
-        - name: registrypull
+      imagePullSecrets:
+      - name: registrypull
         readinessProbe:
           httpGet:
             path: /actuator/health
