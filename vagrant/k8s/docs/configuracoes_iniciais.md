@@ -4,7 +4,7 @@ vagrant up
 ```
 
 <p align="center">
-  <img alt="k8s" src="../../data/k8s-images/k8s-admin-4.png">
+  <img alt="k8s" src="../../../data/k8s-images/k8s-admin-4.png">
 </p>
 
 ## Logar no control plane
