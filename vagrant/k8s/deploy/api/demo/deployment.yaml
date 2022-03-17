@@ -1,20 +1,23 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java-api-demo-sonar-success
+  name: java-api-demo-sonar-success-deployment
 spec:
-  replicas: 1
-  template:
-    metadata:
+  selector:
+    matchLabels:
+      app: java-api-demo-sonar-success
+  template: 
+    metadata:       
       labels:
         app: java-api-demo-sonar-success
-    spec:
+    spec:            
       containers:
-        - name: java-api-demo-sonar-success
-          image: '192.168.10.30:5000/java-api-demo-sonar-success:latest'
-          ports:
-          - containerPort: 80
-          livenessProbe:
-            httpGet:
-              path: /actuator/health
-              port: 8080
+      - name: java-api-demo-sonar-success-container
+        image: 192.168.10.30:5000/java-api-demo-sonar-success:latest
+        ports:
+        - containerPort: 80
+        imagePullPolicy: Always
+        livenessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8080
