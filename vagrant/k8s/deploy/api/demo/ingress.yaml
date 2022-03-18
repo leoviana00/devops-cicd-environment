@@ -21,3 +21,5 @@ spec:
               name: java-api-demo-sonar-success-service
               port:
                 number: 8080
+status:
+  loadBalancer: {}
