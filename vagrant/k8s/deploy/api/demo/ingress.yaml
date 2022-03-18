@@ -4,7 +4,7 @@ metadata:
     name: java-ingress
     namespace: java
     annotations:
-        # haproorwarded-for: 'true'
+        haproorwarded-for: 'true'
         # haproxy.org/loadxy.org/check: 'true'
         # haproxy.org/f-balance: leastconn
         ingress.class: haproxy
