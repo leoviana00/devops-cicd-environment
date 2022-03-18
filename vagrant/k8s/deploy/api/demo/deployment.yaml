@@ -36,7 +36,7 @@ spec:
             - containerPort: 8080
           readinessProbe:
             httpGet:
-              path: /actuator
+              path: /actuator/health
               port: 8080
 
       terminationGracePeriodSeconds: 60
