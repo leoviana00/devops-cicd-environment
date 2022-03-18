@@ -7,7 +7,7 @@ metadata:
         # haproorwarded-for: 'true'
         # haproxy.org/loadxy.org/check: 'true'
         # haproxy.org/f-balance: leastconn
-        # ingress.class: haproxy
+        ingress.class: haproxy
         haproxy.org/path-rewrite: "/"
         # kubernetes.io/ingress.class: haproxy
 spec:
