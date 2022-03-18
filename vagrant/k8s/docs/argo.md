@@ -1,5 +1,9 @@
 <h1 align="center">Instalação e configuração do argocd</h1>
 
+<p align="center">
+  <img alt="argo" src="../../../data/argocd-images/argo-logo.png">
+</p>
+
 ## Utilizando linha de comando
 
 1. Quick Start
