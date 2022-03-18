@@ -11,4 +11,4 @@ spec:
       protocol: TCP
   selector:
     app: java-api-demo-sonar-success
-  type: LoadBalancer
+  # type: LoadBalancer
