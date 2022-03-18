@@ -63,6 +63,13 @@
 
 7. [Desenvolvimento da Pipeline](./roles/configure_jenkins/files/jenkinsfile/README.md)
 
+## Estudando como farei a parte de deploy
+
+- Tecnologias sendo estudadas:
+  - Kubernetes
+  - LENS
+  - Argo CD
+- [Laboratório](./vagrant/k8s/README.md)
 
 <h3 align="center">Provisionamento da Infraestrutura e Serviços</h3>
 

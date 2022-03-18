@@ -12,3 +12,5 @@
 5. [Subindo o argo cd](./docs/argo.md)
 6. [Lens Metric](./docs/lens_metrics.md)
 7. [Deploy Teste utilizando o argocd](./docs/deploy.md)
+
+- Passo a seguir: Criar automaticamente varios aplicativos no `Argo CD`.
