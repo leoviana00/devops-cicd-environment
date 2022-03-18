@@ -63,7 +63,7 @@
 
 7. [Desenvolvimento da Pipeline](./roles/configure_jenkins/files/jenkinsfile/README.md)
 
-<h3 align="center">Estudando como farei a parte de deploy</h3>
+<h3>Estudando como farei a parte de deploy</h3>
 
 - Tecnologias sendo estudadas:
   - `Kubernetes`
