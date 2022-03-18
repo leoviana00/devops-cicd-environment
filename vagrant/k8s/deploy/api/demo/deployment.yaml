@@ -31,14 +31,16 @@ spec:
           # envFrom:
           #   - configMapRef:
           #       name: java-api-demo-sonar-success-config
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
           readinessProbe:
             httpGet:
               path: /actuator/health
               port: 8080
-
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          successThreshold: 1
       terminationGracePeriodSeconds: 60
       # nodeSelector:
       #   general: "true"
