@@ -6,6 +6,7 @@
 - Gitlab Access Token: ""
 - SonarQube Token Secret: ""
 - Jenkins Public Key: ""
+- Registry Pull Secret: ""
 ```
 
 ## Etapas da integração

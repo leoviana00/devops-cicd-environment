@@ -26,6 +26,7 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ```console
 kubectl -n argocd delete secret argocd-initial-admin-secret
 ```
+
 ## Resource Tracking 
 - https://argo-cd.readthedocs.io/en/stable/user-guide/resource_tracking/
 
