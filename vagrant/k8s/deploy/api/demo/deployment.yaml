@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: java-api-demo-sonar-success
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 3
   strategy:
     type: RollingUpdate
