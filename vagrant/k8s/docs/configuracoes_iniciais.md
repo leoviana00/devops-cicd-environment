@@ -29,9 +29,3 @@ kubectl get nodes
 <p align="center">
   <img alt="nodes" src="../../../data/k8s-images/k8s-admin-8.png">
 </p>
-
-## Criando `sercret` para o `Registry Privado`
-
-```console
-kubectl create secret docker-registry registrypull --docker-server=192.168.10.30:5000 --docker-username=leoviana --docker-password=changeit --docker-email=test@dock.mail -n java
-````
