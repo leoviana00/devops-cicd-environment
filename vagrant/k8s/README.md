@@ -10,3 +10,4 @@
 3. [Instalando Dashboard LENS e adicionando um CLUSTER](./docs/lens.md)
 4. [Integração com Registry Privado](./docs/registry.md)
 5. [Subindo o argo cd](./docs/argo.md)
+6. [Lens Metric](./docs/lens_metrics.md)
