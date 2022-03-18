@@ -46,6 +46,12 @@
   <img alt="Ambiente" src="data/ambiente.png">
 </p>
 
+<h3 align="center">Provisionamento da Infraestrutura e Serviços</h3>
+
+<p align="center">
+  <img alt="Ambiente" src="data/provisionamento.png">
+</p>
+
 ## 🚀 Execução
 0. [Planejamento - Etapas do projeto](./docs/stages.md) 
 
@@ -70,13 +76,6 @@
   - `LENS`
   - `Argo CD`
 - [Laboratório](./vagrant/k8s/README.md)
-
-<h3 align="center">Provisionamento da Infraestrutura e Serviços</h3>
-
-
-<p align="center">
-  <img alt="Ambiente" src="data/provisionamento.png">
-</p>
 
 ## 📄 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
