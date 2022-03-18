@@ -15,7 +15,7 @@ spec:
     - http:
         paths:
         - path: /
-          pathType: ImplementationSpecificPrefix
+          pathType: ImplementationSpecific
           backend:
             service:
               name: java-api-demo-sonar-success-service
