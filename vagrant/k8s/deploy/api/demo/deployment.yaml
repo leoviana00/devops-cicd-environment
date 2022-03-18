@@ -37,6 +37,7 @@ spec:
           readinessProbe:
             httpGet:
               path: /actuator/health
+              port: 8080
 
       terminationGracePeriodSeconds: 60
       # nodeSelector:
