@@ -21,7 +21,3 @@ spec:
               name: java-api-demo-sonar-success-service
               port:
                 number: 8080
-status:
-  loadBalancer:
-    ingress:
-      - ip: 172.16.16.100
