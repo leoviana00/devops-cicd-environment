@@ -10,6 +10,7 @@ metadata:
         # ingress.class: haproxy
         # haproxy.org/path-rewrite: "/"
         # kubernetes.io/ingress.class: haproxy
+        kubernetes.io/ingress.class: contour-internal
 spec:
     rules:
     - http:
