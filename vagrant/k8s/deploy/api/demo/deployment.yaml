@@ -34,6 +34,10 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+
       terminationGracePeriodSeconds: 60
       # nodeSelector:
       #   general: "true"
