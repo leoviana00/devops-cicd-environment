@@ -1,8 +1,9 @@
-node {
+  node {
 
   stage('Environment Variables') {
     env.ARTIFACT = 'java-api-demo-sonar-success'
     env.REPOSITORY = 'ssh://git@192.168.10.10:2022/jenkins/java-api-demo-sonar-success.git' 
+    env.REPOSITORYGITOPS = 'ssh://git@192.168.10.10:2022/jenkins/gitops-storage.git' 
     env.BRANCH = "master"
   }
 
@@ -50,8 +51,27 @@ node {
       }
   }
 
-  stage ("Deploy"){
-    sh "echo deploy"
+  stage ("Update CD File"){
+    		def pom = readMavenPom file: ''
+			  dir('gitops-storage') {
+			    checkout changelog: true, poll: true, scm: [
+					$class: 'GitSCM',
+					branches: [[name: "origin/main"]],
+					doGenerateSubmoduleConfigurations: false,
+					submoduleCfg: [],
+					userRemoteConfigs: [[credentialsId: 'GitlabInJenkins', url: "${REPOSITORYGITOPS}"]]
+					]
+					sshagent(['GitlabInJenkins']) {
+						sh label: '', script: """
+						mkdir -p "cd-files/main/${pom.artifactId}"
+						cp  ../deployment.yaml "cd-files/main/${pom.artifactId}/deployment.yaml"
+						git config user.email "jenkins@gmail.com.br"
+						git config user.name "Jenkins"
+						git add "cd-files/main/${pom.artifactId}/deployment.yaml"
+						git diff --quiet && git diff --staged --quiet || git commit --allow-empty -m "M - Change deployment.yaml ${pom.artifactId}-${pom.version}-main"
+						git push -u origin HEAD:main
+						"""
+          }
+        }        
   }
-
 }
