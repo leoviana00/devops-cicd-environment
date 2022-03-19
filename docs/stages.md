@@ -7,6 +7,7 @@
     - Registry
     - Jenkins
     - Sonar
+    - Registry
 4. Construção de Playbook com `ansible` para configuração:
     - Docker
     - GitLab
@@ -17,6 +18,7 @@
     - GitLab
     - Jenkins
     - Sonar
+    - Registry
 6. Criação de uma `API`:
     - Java
     - Spring
