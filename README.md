@@ -56,7 +56,7 @@
 
 ## 📚 Estudando como farei a parte de deploy
 
->> Tecnologias sendo estudadas:
+>> Nota: Tecnologias sendo estudadas:
 
 1. `Ambiente Kubernetes`
 2. `Dashboard LENS`
