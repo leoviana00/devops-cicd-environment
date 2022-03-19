@@ -18,14 +18,14 @@ kubectl get svc -A
 ## Verificando pelo `LENS`
 
 <p align="center">
-  <img alt="ingress" src="../../data/ingress-images/ingress-admin-1.png">
+  <img alt="ingress" src="../../../data/ingress-images/ingress-admin-1.png">
 </p>
 
 ## Criando um ingress para a aplicação java que foi deployada.
 
 1. Passo:
 <p align="center">
-  <img alt="ingress" src="../../data/ingress-images/ingress-admin-2.png">
+  <img alt="ingress" src="../../../data/ingress-images/ingress-admin-2.png">
 </p>
 
 2. Passo: Arquivo do recursos localizado em `/vagrant/k8s/deploy/ingress`
