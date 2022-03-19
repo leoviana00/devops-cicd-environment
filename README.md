@@ -65,7 +65,7 @@
 
 5. [Integração dos serviços](roles/integration.md) 
 
-6. [Construção da API rest](./docs/api-rest-java.md)
+6. [Construção da API rest](./app-spring/README.md.md)
 
 7. [Desenvolvimento da Pipeline](./roles/configure_jenkins/files/jenkinsfile/README.md)
 
