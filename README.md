@@ -42,32 +42,28 @@
 
 - A infraestrutura e configurações dos serviços foram feitas utilizando o `ansible`, `vagrant` e `virtualbox`.
 
-- [Diagrama da arquitetura e do provisionamento de infra e serviços](./docs/arquitetura.md)
+1. [Diagrama da arquitetura e do provisionamento de infra e serviços](./docs/arquitetura.md)
 
 ## 🚀 Etapas
 0. [Planejamento - Etapas do projeto](./docs/stages.md) 
-
 1. [Dependências necessárias](packages/README.md) 
-
 2. [Chave pública e privada](keys/README.md)
-
 3. [Provisionamento da infraestrutura](vagrant/README.MD) 
-
 4. [Provisionamento dos serviços](roles/README.md) 
-
 5. [Integração dos serviços](roles/integration.md) 
-
 6. [Construção da API rest](./app-spring/README.md.md)
-
 7. [Desenvolvimento da Pipeline](./roles/configure_jenkins/files/jenkinsfile/README.md)
 
 <h3>Estudando como farei a parte de deploy</h3>
 
 - Tecnologias sendo estudadas:
-  - `Kubernetes`
-  - `LENS`
-  - `Argo CD`
-- [Laboratório](./vagrant/k8s/README.md)
+
+  1. `Ambiente Kubernetes`
+  2. `Dashboard LENS`
+  3. `Deploy com Argo CD`
+  4. `Haproxy Ingress Controller`
+
+- [Laboratório de estudo](./vagrant/k8s/README.md)
 
 ## 📄 Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
