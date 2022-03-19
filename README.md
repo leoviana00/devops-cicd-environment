@@ -54,7 +54,7 @@
 6. [Construção da API rest](./app-spring/README.md.md)
 7. [Desenvolvimento da Pipeline](./roles/configure_jenkins/files/jenkinsfile/README.md)
 
-<h3>Estudando como farei a parte de deploy</h3>
+## Estudando como farei a parte de deploy
 
 >> Tecnologias sendo estudadas:
 
