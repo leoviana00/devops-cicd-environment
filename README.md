@@ -40,17 +40,9 @@
 
 ## 🛠️ Ambiente 
 
-<h3 align="center">Arquitetura</h3>
+- A infraestrutura e configurações dos serviços foram feitas utilizando o `ansible`, `vagrant` e `virtualbox`.
 
-<p align="center">
-  <img alt="Ambiente" src="data/ambiente.png">
-</p>
-
-<h3 align="center">Provisionamento da Infraestrutura e Serviços</h3>
-
-<p align="center">
-  <img alt="Ambiente" src="data/provisionamento.png">
-</p>
+- [Diagrama da arquitetura e do provisionamento de infra e serviços](./docs/arquitetura.md)
 
 ## 🚀 Execução
 0. [Planejamento - Etapas do projeto](./docs/stages.md) 
