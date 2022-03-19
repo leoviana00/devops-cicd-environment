@@ -30,13 +30,13 @@ kubectl get svc -A
 
 2. Passo: Arquivo do recursos localizado em `/vagrant/k8s/deploy/ingress`
 <p align="center">
-  <img alt="ingress" src="../../data/ingress-images/ingress-admin-3.png">
+  <img alt="ingress" src="../../../data/ingress-images/ingress-admin-3.png">
 </p>
 
 ## Verificando a porta do haproxy controller
 
 <p align="center">
-  <img alt="ingress" src="../../data/ingress-images/ingress-admin-4.png">
+  <img alt="ingress" src="../../../data/ingress-images/ingress-admin-4.png">
 </p>
 
 ## Acessando a aplicação através do ingress
@@ -46,7 +46,7 @@ kubectl get svc -A
 - http://172.16.16.100:31691/
 
 <p align="center">
-  <img alt="ingress" src="../../data/ingress-images/ingress-admin-5.png">
+  <img alt="ingress" src="../../../data/ingress-images/ingress-admin-5.png">
 </p>
 
 - Ou a rota de health check
@@ -54,5 +54,5 @@ kubectl get svc -A
 - http://172.16.16.100:31691/actuator/health
 
 <p align="center">
-  <img alt="ingress" src="../../data/ingress-images/ingress-admin-6.png">
+  <img alt="ingress" src="../../../data/ingress-images/ingress-admin-6.png">
 </p>
