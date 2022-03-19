@@ -56,12 +56,12 @@
 
 <h3>Estudando como farei a parte de deploy</h3>
 
-- Tecnologias sendo estudadas:
+>> Tecnologias sendo estudadas:
 
-  1. `Ambiente Kubernetes`
-  2. `Dashboard LENS`
-  3. `Deploy com Argo CD`
-  4. `Haproxy Ingress Controller`
+1. `Ambiente Kubernetes`
+2. `Dashboard LENS`
+3. `Deploy com Argo CD`
+4. `Haproxy Ingress Controller`
 
 - [Laboratório de estudo](./vagrant/k8s/README.md)
 
