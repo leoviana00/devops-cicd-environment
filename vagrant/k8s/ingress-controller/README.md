@@ -1,11 +1,11 @@
 
-## Install with kubectl
+## Instalação com `kubectl`
 
 ```console
 kubectl apply -f https://raw.githubusercontent.com/haproxytech/kubernetes-ingress/v1.7/deploy/haproxy-ingress.yaml
 ```
 
-## Check your installation
+## Checando a instalação
 
 ```console
 kubectl get pods -A
