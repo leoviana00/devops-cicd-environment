@@ -1,0 +1,144 @@
+#---------------------------------------------------------------
+#                        Informação
+#---------------------------------------------------------------
+# Descrição: Ambiente CICD para praticar laboratório
+#---------------------------------------------------------------
+#   CONTAINERS
+#---------------------------------------------------------------
+# - JENKINS
+# - GITLAB
+# - SONAR
+# - PGSQL
+#---------------------------------------------------------------
+
+version: '3.7'
+services:
+
+#---------------------------------------------------------------
+#  GitLab-Server 
+#---------------------------------------------------------------
+
+  gitlab:
+      image: gitlab/gitlab-ce:latest
+      container_name: gitlab-cicd
+      restart: always
+      hostname: gitlab
+      ports:
+        - "2022:22"    
+        - "80:80"
+        - "443:443"
+      networks:
+        - cicd
+      volumes:
+        - gitlab_config:/etc/gitlab
+        - gitlab_data:/var/opt/gitlab
+        - gitlab_logs:/var/log/gitlab
+      environment:
+        GITLAB_OMNIBUS_CONFIG: |
+            external_url 'http://gitlab.project'
+            gitlab_rails['gitlab_shell_ssh_port'] = 2022
+
+#---------------------------------------------------------------
+#  Jenkins-Server 
+#---------------------------------------------------------------
+
+  jenkins:
+    image: jenkins/jenkins:lts
+    privileged: true
+    container_name: jenkins-cicd
+    hostname: jenkins
+    restart: always
+    user: root
+    ports:
+      - 8083:8080
+      - 50003:50000
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - cicd
+
+#---------------------------------------------------------------
+#  Registry-Server 
+#---------------------------------------------------------------
+  regestry: 
+    image: registry:2.7.1
+    container_name: registry
+    hostname: jenkins
+    restart: always
+    volumes:
+      - registry_data:/var/lib/docker/
+    ports:
+      - 5000:5000
+      - 5001:5001
+    networks:
+      - cicd
+
+#---------------------------------------------------------------
+#  Sonarqube-Server 
+#---------------------------------------------------------------
+
+  sonarqube:
+    image: sonarqube:7.6-community
+    container_name: sonar-cicd
+    hostname: sonar
+    restart: always
+    volumes:
+      - sonarqube_conf:/opt/sonarqube/conf
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_extensions:/opt/sonarqube/extensions
+      - sonarqube_bundled-plugins:/opt/sonarqube/lib/bundled-plugins
+    networks:
+      - cicd
+    ports:
+      - '9000:9000'
+    # environment:
+    #   - sonar.jdbc.username=sonar
+    #   - sonar.jdbc.password=sonar
+    #   - sonar.jdbc.url=jdbc:postgresql://db:5432/sonar
+
+#---------------------------------------------------------------
+#  Postgresql-Server 
+#---------------------------------------------------------------
+
+  # db:
+  #   image: postgres
+  #   networks:
+  #     - cicd
+  #   environment:
+  #     - POSTGRES_USER=sonar
+  #     - POSTGRES_PASSWORD=sonar
+  #   volumes:
+  #     - postgresql:/var/lib/postgresql
+  #     - postgresql_data:/var/lib/postgresql/
+
+#---------------------------------------------------------------
+#  NETWORKS 
+#---------------------------------------------------------------
+networks:
+  cicd:
+    driver: bridge
+
+#---------------------------------------------------------------
+#  VOLUMES 
+#---------------------------------------------------------------
+volumes:
+  # sonar
+  sonarqube_conf:
+  sonarqube_data:
+  sonarqube_extensions:
+  sonarqube_bundled-plugins:
+
+  # jenkins
+  jenkins_home:
+
+  # registry
+  registry_data:
+
+  # gitlab
+  gitlab_config:
+  gitlab_data:
+  gitlab_logs:
+
+  # grafana
+  grafana_data:

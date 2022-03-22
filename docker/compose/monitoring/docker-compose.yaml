@@ -1,0 +1,49 @@
+#---------------------------------------------------------------
+#  Grafana-Server 
+#---------------------------------------------------------------
+
+grafana:
+    image: grafana/grafana
+    container_name: grafana
+    hostname: grafana
+    restart: always
+    user: root
+    environment:
+      TZ: America/Fortaleza
+      GF_INSTALL_PLUGINS: grafana-clock-panel,grafana-simple-json-datasource,alexanderzobnin-zabbix-app
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    ports:
+      - 3000:3000
+    # networks:
+    #   - cicd
+    volumes:
+      - ./docker/grafana_data:/var/lib/grafana
+
+#---------------------------------------------------------------
+#  Prometheus-Server 
+#---------------------------------------------------------------
+
+prometheus:
+    image: prom/prometheus
+    user: root
+    container_name: prometheus
+    hostname: prometheus
+    restart: always
+    volumes:
+      - ./prometheus/config:/etc/prometheus
+      - ./prometheus/data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    ports:
+      - 9090:9090
+    # networks:
+    #   - cicd
+
+#---------------------------------------------------------------
+#  NETWORK 
+#---------------------------------------------------------------
+
+# networks:
+#   cicd:
+#     driver: bridge
