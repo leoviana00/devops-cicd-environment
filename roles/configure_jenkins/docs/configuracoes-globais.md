@@ -13,5 +13,5 @@
 2. Configuração do `SonarQube Scanner`
 
 <p align="center">
-  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-31.png">
+  <img alt="Jenkins" src="../../../data/jenkins-images/jenkins-admin-32.png">
 </p>
