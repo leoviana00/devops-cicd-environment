@@ -1,14 +1,14 @@
 <h1 align="center">Docker Hub</h1>
 
 <p align="center">
-  <img alt="Dockerhub" src="../data/dockerhub.png">
+  <img alt="Dockerhub" src="../../data/dockerhub.png">
 </p>
 
 
 <h1 align="center">Prepararação do dockerfile </h1>
 
 <p align="center">
-  <img alt="Dockerhub" src="../data/docker_jenkins.png">
+  <img alt="Dockerhub" src="../../data/docker_jenkins.png">
 </p>
 
 - Gerar uma imagem contendo:
@@ -52,5 +52,5 @@ docker push leoviana00/jenkins_project:0.1.0
 ```
 
 <p align="center">
-  <img alt="Dockerhub" src="../data/dockerhub-jenkins.png">
+  <img alt="Dockerhub" src="../../data/dockerhub-jenkins.png">
 </p>
