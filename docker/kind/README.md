@@ -84,12 +84,6 @@ kebectl cluster-info --context kind-meucluster
 kind delete cluster
 ```
 
-# Kubernetes e VSCode
-
-## Instalando extensão
-
-![](./images/kubernetes-vescode-2.PNG)
-
 # Nodes
 
 ## Arquivo yaml
@@ -204,9 +198,6 @@ replicaset.apps/mongodb-deployment-6b7bd66f46   1         1         1       82m
 ```
 localhost:8080/api-docs
 ```
-
-![](./images/api-produto.PNG)
-
 ## Referências
 
 - https://kind.sigs.k8s.io/docs/user/quick-start/
