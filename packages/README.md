@@ -10,16 +10,25 @@
 
 1. Instalar separadamente: 
 
+Se você usa sistemas baseados em Debian:
 ```console
-$ sudo apt-get install virtualbo -y
-$ sudo apt-get install vagrant -y
-$ sudo apt-get install ansible -y
+$ sudo apt-get install virtualbox ansible vagrant -y
+```
+
+Se você usa sistemas baseados em Arch Linux:
+```console
+$ sudo pacman -Sy virtualbox ansible vagrant --noconfirm
 ```
 
 2. Passando o arquivo packages:
 
+Se você usa Debian:
 ```console
 $ xargs -a packages/packages.txt sudo apt-get install -y
+```
+Ou se você usa Arch Linux:
+```console
+$ xargs -a packages/packages.txt sudo pacman -Sy --noconfirm
 ```
 
 3. Através do makefile:

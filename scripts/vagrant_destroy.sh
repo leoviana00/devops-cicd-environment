@@ -1,5 +1,5 @@
 #!/bin/bash
-cd vagrant/jenkins && vagrant destroy 
-cd ../gitlab && vagrant destroy 
-cd ../registry && vagrant destroy 
-cd ../sonar && vagrant destroy 
+cd vagrant/jenkins && vagrant destroy -f
+cd ../gitlab && vagrant destroy -f
+cd ../registry && vagrant destroy -f
+cd ../sonar && vagrant destroy -f

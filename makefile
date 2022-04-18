@@ -1,6 +1,15 @@
 # Instalando ferramentas necessárias
 init:
-	xargs -a packages/packages.txt sudo apt-get install -y
+	if [ -x /usr/bin/pacman ]; then \
+		xargs -a packages/packages.txt sudo pacman -Sy --noconfirm; \
+	elif [ -x /usr/bin/apt-get ]; then \
+		xargs -a packages/packages.txt sudo apt-get install -y; \
+	elif [ -x /usr/bin/yum ]; then \
+		xargs -a packages/packages.txt sudo yum -y install; \
+	else \
+		echo "No package manager found"; \
+	fi
+	
 
 # Inicializando configuração do docker nos hosts
 container:
