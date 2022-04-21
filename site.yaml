@@ -29,3 +29,11 @@
   tags: registry
   roles:
     - role: configure_registry
+
+- name: Deploy gitlab
+  hosts: gitlab-virtualbox
+  remote_user: vagrant
+  become: true
+  tags: gitlab
+  roles:
+    - role: configure_gitlab
