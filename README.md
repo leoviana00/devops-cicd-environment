@@ -51,7 +51,7 @@
 3. [Provisionamento da infraestrutura](vagrant/README.MD) 
 4. [Provisionamento dos serviços](roles/README.md) 
 5. [Integração dos serviços](roles/integration.md) 
-6. [Construção da API rest](./app-spring/README.md.md)
+6. [Construção da API rest](./app-spring/README.md)
 7. [Desenvolvimento da Pipeline](./roles/configure_jenkins/files/jenkinsfile/README.md)
 
 ## 📚 Estudando como farei a parte de deploy
