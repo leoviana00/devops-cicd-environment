@@ -32,6 +32,10 @@ sysctl --system >/dev/null 2>&1
 # systemctl enable containerd >/dev/null 2>&1
 
 echo "PASSO 05 - INSTALAÇÃO DOCKER"
+# curl -fsSL https://get.docker.com | bash >/dev/null 2>&1
+# usermod -aG docker ${USER}
+# chmod 777 /var/run/docker.sock
+# usermod -aG docker vagrant
 apt update -qq >/dev/null 2>&1
 apt-get -qq -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common >/dev/null 2>&1
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - >/dev/null 2>&1

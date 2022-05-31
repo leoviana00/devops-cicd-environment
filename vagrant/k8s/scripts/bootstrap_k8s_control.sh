@@ -8,3 +8,10 @@ kubectl --kubeconfig=/etc/kubernetes/admin.conf create -f https://docs.projectca
 
 echo "PASSO 03 - GERAR O COMANDO DE JOIN DOS NODES"
 kubeadm token create --print-join-command > /joincluster.sh 2>/dev/null
+
+echo "PASSO 04 - COPIANDO OS ARQUIVOS DE CONFIGURAÇÃO "kubectl" PARA O DIRETÓRIO HOME"
+mkdir -p /home/vagrant/.kube
+sudo cp -i /etc/kubernetes/admin.conf /home/vagrant/.kube/config
+sudo chown vagrant:$(id -g) /home/vagrant/.kube/config
+
+export KUBECONFIG=/etc/kubernetes/admin.conf
