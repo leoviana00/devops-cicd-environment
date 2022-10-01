@@ -12,6 +12,8 @@
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
 ```
+- popos
+- https://linuxhint.com/install-docker-on-pop_os/
 
 2. Compose
 
